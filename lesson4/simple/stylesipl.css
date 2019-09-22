@@ -1,0 +1,35 @@
+body {
+  background-color: #ffffff; /* Цвет фона веб-страницы */
+  font-size: 18px;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  background-color: #a52a2a;
+}
+
+em strong {
+  color: blue;
+}
+
+aside {
+  margin-left: 40%;
+  margin-right: 10%;
+}
+
+footer {
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+
+.colortext {
+  color: blue;
+}
+.car {
+  border-width: 3px;
+  border-style: dashed;
+  border-color: black;
+}
