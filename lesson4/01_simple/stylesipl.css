@@ -1,0 +1,65 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  background-color: #000000;
+}
+
+body {
+  width: 790px;
+  height: 770px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #ffffff;
+  font-size: 18px;
+  /* border: 2px solid green; */
+}
+
+header, main{
+background-color: white;
+padding: 2% 2%;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  background-color: #a52a2a;
+  margin-top: 2%;
+}
+
+em strong {
+  color: blue;
+}
+
+aside {
+  margin-left: 30%;
+}
+
+section p{
+  margin-top: 2%;
+}
+
+footer {
+  width: 740px;
+  height: 24px;
+  padding: 2% 2%;
+  /* border: 2px solid red; */
+}
+
+footer p{
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+
+.colortext {
+  color: blue;
+}
+.car {
+  border-width: 3px;
+  border-style: dashed;
+  border-color: black;
+}

@@ -1,0 +1,72 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+html{
+    background-image: url(images/back.jpg) ;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 1580px 457px;
+}
+body {
+    display: inline-block; 
+    position: relative;
+    width: 1580px;
+    height: 460px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    margin: 0px;
+    font-weight: 300;
+    line-height: 150%;
+    /* border: 1px solid red; */
+  }
+
+  header {
+    height: 60%;
+    /* border: 1px solid yellow; */
+  }
+
+  nav{
+    position: absolute;
+}
+  .menu a{
+    font-weight: 400;
+    font-size: 20pt;
+    color: white;
+    opacity: 0.7;
+    text-decoration: none;
+  }
+  .menu1 {
+    float: left;
+    margin-top: 107px;
+    margin-left: 283px;
+    width: 240px;
+    height: 145px;
+    text-align: center;
+    /* border: 1px solid white; */
+  }
+  .menu2, .menu3 {
+    float: left;
+    margin-top: 107px;
+    margin-left: 149px;
+    width: 240px;
+    height: 145px;
+    text-align: center;
+    /* border: 1px solid white; */
+  }
+.text{
+  margin-left: 220px;
+}
+  section {
+  margin-top: 10px;
+  display: inline-block;
+  margin-left: 25px;
+  width: 360px;
+  height: 160px;
+  text-align: center;
+  box-sizing: border-box;
+  font-size: 11pt;
+  opacity: 0.7;
+  /* border: 1px solid green; */
+}

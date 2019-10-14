@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+
+  body{
+    background-image: url(images/Back.png) ;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 1550px 289px;
+    position: absolute;
+    display: inline-block;
+    color: black;
+    font-family: 'Proxima Nova lt', sans-serif;
+  }
+ 
+  header{
+  display: inline-block;
+  width: 1550px;
+  height: 290px;
+  /* border: 1px solid red; */
+ }
+
+  .menu1 {
+    position: absolute;
+    width: 295px;
+    height: 285px;
+    margin-left: 305px;
+    /* border: 1px solid yellow;     */
+  }
+
+  .menu2 {
+    position: absolute;
+    width: 295px;
+    height: 285px;
+    margin-left: 625px;
+    /* border: 1px solid yellow; */
+  }
+
+  .menu3 {
+    position: absolute;
+    width: 295px;
+    height: 285px;
+    margin-left: 945px;
+    /* border: 1px solid yellow; */
+  }
+
+ .boximage, .boximage2, .boximage3 {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    margin-left: 114px;
+    margin-top: 55px;
+    /* border: 1px solid green; */
+  }
+
+.text, .text2, .text3 {
+  position: absolute; 
+  width: 290px;
+  height: 150px;
+  margin-left: 2px;
+  margin-top: 130px;
+  font-style: normal;
+  opacity: 0.7;  
+  /* border: 1px solid green; */
+}
+
+h2{
+  font-size: 13pt;
+  text-align: center
+}
+
+p{
+  font-size: 14pt;
+  font-style: normal;
+  text-align: center
+}
+
+a.boximage {
+  widows: 67px;
+  height: 67px;
+  background-image:url(images/menu1.png);
+  background-repeat: no-repeat;
+  display:block;
+  text-decoration:none;
+}
+
+a.boximage:hover {
+  background-image:url(images/menu1_2.png)
+}
+
+a.boximage2 {
+  widows: 67px;
+  height: 67px;
+  background-image:url(images/menu2.png);
+  background-repeat: no-repeat;
+  display:block;
+  text-decoration:none;
+}
+
+a.boximage2:hover {
+  background-image:url(images/menu2_2.png)
+}
+
+a.boximage3 {
+  widows: 67px;
+  height: 67px;
+  background-image:url(images/menu3.png);
+  background-repeat: no-repeat;
+  display:block;
+  text-decoration:none;
+}
+
+a.boximage3:hover {
+  background-image:url(images/menu3_2.png)
+}

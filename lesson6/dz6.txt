@@ -1,0 +1,26 @@
+1) 
+Link to file 06_1.psd
+при наведении на иконку ее цвет должен мен€тс€ на #2a69a6, а цвет круга на белый так чтобы рамочка вокруг осталась
+
+2) Ќаписать стили дл€ CSS shopping list:
+Link to file 06_2.png
+
+¬ решении об€зательно должны быть использованы селекторы:
+
+по элементу
+по классу
+по атрибуту
+селектор соседей У+Ф
+:hover
+:active
+:checked
+:before и :after
+:nth-child
+ƒл€ плавных анимаций используйте CSS-код:
+
+*{transition: all .1s ease-in;}
+÷вета определ€йте с помощью УpixieФ, или другого похожего инструмента.
+
+Ўрифт: \'Trebuchet MS\', Trebuchet, Arial, sans-serif
+
+Favicon возьмите эту http://flukeout.github.io/favicon.png 

@@ -1,0 +1,150 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+html{
+  background-color: #000000;  /* Цвет фона веб-страницы */
+}
+
+body {
+  position: relative;
+  font-size: 18px;
+  width: 951px;
+  height: 566px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #990909; 
+  /* border: 1px solid #2b08f0; */
+}
+
+header{
+  background-color: #990909; 
+  text-align: center;
+  /* border: 1px solid green; */
+}
+
+nav {
+  width: 96%;
+  height: 160px;
+  background-color: black;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-bottom: 2px;
+  color: white;
+  /* display: inline-block; */
+  /* border: 1px solid blue; */
+}
+
+nav a {
+  text-decoration: none;
+  color: white;  
+}
+
+.menu1 {
+  position: absolute;
+  width: 150px;
+  height: 135px;
+  margin-top: 20px;
+  margin-left: 50px;  
+  /* border: 1px solid purple; */
+}
+
+.menu2 {
+  position: absolute;
+  width: 150px;
+  height: 135px;
+  margin-top: 20px;
+  margin-left: 270px;  
+  /* border: 1px solid purple; */
+}
+
+.menu3 {
+  position: absolute;
+  width: 150px;
+  height: 135px;
+  margin-top: 20px;
+  margin-left: 500px;
+  /* border: 1px solid purple; */
+}
+
+.menu4 {
+  position: absolute;
+  width: 150px;
+  height: 135px;
+  margin-top: 20px;
+  margin-left: 720px;
+  /* border: 1px solid purple; */
+}
+
+.vw {
+  width: 150px;
+  height: 113px;
+}
+
+.leftmenu {
+  width: 210px;
+  height: 290px;
+  background-color: #7d0909;
+  float: left;
+  margin-left: 2%;
+  margin-top: 2px;
+  padding: 3px 3px;
+  /* border: 1px solid purple; */
+}
+
+.leftmenu a{
+  color: #ea5b11;
+}
+
+.right_title {
+  position: absolute;
+  width: 15%;
+  height: 290px;
+  margin-left: 83%;
+  color: black;
+  background-color: #e3dddd;
+  text-align: center;
+}
+
+h4{
+  background-color: #bdbdbd;
+}
+
+aside.right_title p{
+    text-align: left;
+    font-size: 11pt;
+    background-color: #e3dddd;
+    padding: 1px 2px;
+  }
+  
+  aside.right_title b{    
+    font-size: 12pt;
+    box-sizing: border-box;
+  }
+  
+  p.line{
+    color:  #9a9a9a;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+
+  .maintext{
+    width: 81%;
+    height: 290px;
+    color: white;  
+    margin-top: 15px;
+    font-size: 12pt;
+    padding: 3px 3px;
+  }
+
+  footer {
+    position: absolute;
+    width: 96%;
+    color: white;
+    background-color: #e95b11;
+    font-size: 16px;
+    text-align: center;
+    margin-left: 2%;
+    margin-top: 2%;
+  }

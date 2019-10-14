@@ -1,0 +1,20 @@
+1)
+Link to file 07_1.psd
+при наведении на колонку она должна мен€ть цвет фона и цвет текста
+
+2) »спользу€ разные значени€ свойства display и отступы сверстать Уѕрогноз погодыФ
+
+   ¬идео инструкци€ https://www.youtube.com/watch?v=g9O7boOJzq4 
+
+“ребовани€:
+
+√орода - это список
+Ќ≈ »—ѕќЋ№«ќ¬ј“№ FLOAT FLEX GRID!
+ƒл€ размещени€ в УсеткуФ городов используем display: inline-block;
+Ўирину каждого пункта делать в процентах (например: width: 50%)
+ƒл€ эффекта смены прозрачности используем :hover и opacity
+»конки берем от сюда https://erikflowers.github.io/weather-icons/ 
+
+ƒл€ плавных анимаций используйте CSS код: *{transition: all .1s ease-in;}
+
+Ўрифт: УLucida Sans UnicodeФ, УLucida GrandeФ, sans-serif

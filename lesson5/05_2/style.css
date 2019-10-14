@@ -1,0 +1,60 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+html{
+    background-image: url(images/back.png) ;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 1920px 420px;
+}
+
+body {
+    width: 1920px;
+    height: 420px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    /* border: 1px solid red; */
+  }
+
+  h2{
+    font-weight: 500;
+    font-size: 17pt;
+    margin-top: 30px;
+    margin-left: 883px;
+  }
+
+  a{
+    text-decoration-line: none;
+  }
+
+  p{
+    font-size: 12pt;
+    margin-top: 65px;
+    margin-left: 845px;
+  }
+
+  span {
+    font-weight: 600;
+    color: #1da8d0;
+  }
+
+  .logo {
+    margin-left: 902px;
+    margin-top: 120px;
+  }
+
+  .separator {
+    margin-left: 845px;
+    margin-top: 10px;
+  }
+
+  .facebook {
+    margin-left: 885px;
+    margin-top: 21px;
+  }
+
+  .tweter, .google, .dribble {
+    margin-left: 30px;
+  }

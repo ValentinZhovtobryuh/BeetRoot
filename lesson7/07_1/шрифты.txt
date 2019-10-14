@@ -1,0 +1,14 @@
+״נטפעû
+Montserat Regular
+<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+font-family: 'Montserrat', sans-serif;
+
+PT Sans Regular
+<link href="https://fonts.googleapis.com/css?family=PT+Sans&display=swap" rel="stylesheet">
+font-family: 'PT Sans', sans-serif;
+
+Fresh, lively and informative content, is key to any successful website, so take a look at your website's content on a regular basis. 
+
+Montserat Bolt
+<link href="https://fonts.googleapis.com/css?family=Montserrat:700&display=swap" rel="stylesheet">
+font-family: 'Montserrat', sans-serif;
