@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'Miso Regular';
+    src: url('font/Miso.eot');
+    src: url('Miso.eot?#iefix') format('embedded-opentype'),
+    url('font/Miso.woff') format('woff'),
+    url('font/Miso.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-family: 'Lato Light';
+    src: url('/font/Lato-Light.eot');
+    src: url('Lato-Light.eot?#iefix') format('embedded-opentype'),
+    url('/font/Lato-Light.woff') format('woff'),
+    url('/font/Lato-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+    *{
+        margin: 0;
+        padding: 0;
+        background-color: black;
+    }
+
+    body{
+        margin: 5% auto;
+        width: 1300px;
+        height: 700px;
+        background-color: #fedd83;
+    }
+
+    .flex-container {
+        /*генерирует flex-контейнер уровня блока*/
+        position: relative;
+        display: -webkit-flex; 
+        -webkit-flex-direction: row;
+        display: flex; 
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        background-color: #fedd83;
+    }
+
+    .flex-item {
+    /* margin: 80px 30px; */
+    display: flex;
+    width: 360px;
+    height: 440px;
+    background-color: white;
+    border: 1px solid red;
+}
+
+img{
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 0px;
+    width:135px;
+    height:134px;
+    background-color: white;
+}
+
+span.prise {
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 150px;
+    color: seagreen;
+    font-family: 'Miso';
+    font-size: 70pt;
+    background-color: white;
+}
+
+span.name_cup {
+    position: absolute;
+    margin-top: 290px;
+    margin-left: 0px;
+    color:black;
+    background-color: wheat;
+    font-family: 'Lato Light';
+    font-size: 30pt;
+    text-align: center;
+    background-color: white;
+}

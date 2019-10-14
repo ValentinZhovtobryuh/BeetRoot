@@ -1,0 +1,27 @@
+רנטפעû
+
+miso ג פאיכ סעטכוי המבאגטעü .box-name {font-family: 'Miso Regular';}
+------------
+@font-face {
+font-family: 'Miso Regular';
+src: url('Miso.eot');
+src: url('Miso.eot?#iefix') format('embedded-opentype'),
+url('Miso.woff') format('woff'),
+url('Miso.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+--------------
+lato light ג פאיכ סעטכוי המבאגטעü .box-name {font-family: 'Lato Light';}
+
+@font-face {
+font-family: 'Lato Light';
+src: url('Lato-Light.eot');
+src: url('Lato-Light.eot?#iefix') format('embedded-opentype'),
+url('Lato-Light.woff') format('woff'),
+url('Lato-Light.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+-------------------
+miso bold

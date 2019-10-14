@@ -1,0 +1,12 @@
+отступы l-r 30 t-b 50/80
+
+w360h440
+Bronze  any cup of coffee until $3
+$2 miso 70 25 24 
+
+w360h500
+Silver  any cup of coffee until $4
+$2.5
+
+Gold  any cup of coffee until $5
+$3
