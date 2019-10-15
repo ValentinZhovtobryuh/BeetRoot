@@ -25,46 +25,57 @@
 }
 
 body {
+  position: relative;
   margin: 5% auto;
-  width: 1300px;
-  height: 700px;
+  width: 1200px;
+  height: 600px;
   background-color: #fedd83;
 }
 
 .flex-container {
   /*генерирует flex-контейнер уровня блока*/
-  position: relative;
-  display: -webkit-flex;
-  -webkit-flex-direction: row;
-  display: flex;
+  display: flex; /* выровнялись в линию*/
   flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-between;
-  background-color: white;
+  justify-content: space-around;
+  flex-wrap: nowrap; /* в одну строку*/
+  align-items: stretch; /* ростягивание*/
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  background-color: #fedd83;
+  border: 1px solid green;  
 }
 
 .flex-item {
-  /* margin: 80px 30px; */
   display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
   width: 360px;
-  height: 440px;
+  margin: 50px 30px;
   background-color: white;
   border: 1px solid red;
 }
 
 img {
-  position: absolute;
-  margin-top: 120px;
-  margin-left: 0px;
+  display: flex;
+  /* position: absolute; */
+  /* margin-top: 120px; */
+  /* margin-left: 0px; */
+  /* align-items: center; */
+  margin: 0 auto;
   width: 135px;
   height: 134px;
   background-color: white;
 }
 
 .prise {
-  position: absolute;
-  margin-top: 40px;
-  margin-left: 150px;
+  display: flex;
+  /* position: absolute; */
+  /* margin-top: 40px; */
+  /* margin-left: 150px; */
+  width: fit-content;
+  margin: 0 auto;
   color: seagreen;
   font-family: "Miso Regular";
   font-size: 70pt;
@@ -72,11 +83,13 @@ img {
 }
 
 .name_cup {
-  position: absolute;
-  margin-top: 290px;
-  margin-left: 0px;
+  display: flex;
+  /* position: absolute; */
+  /* margin-top: 290px; */
+  /* margin-left: 0px; */
+  width: fit-content;
+  margin: 0 auto;
   color: black;
-  background-color: wheat;
   font-family: "Lato Light";
   font-size: 40pt;
   font-weight: 800;
@@ -84,7 +97,11 @@ img {
 }
 
 .text_bot {
-  position: absolute;
+  display: flex;
+  /* margin-top: 360px; */
+  /* position: absolute; */
+  width: fit-content;
+  margin: 0 auto;
   color: black;
   font-family: "Lato Light";
   font-size: 20pt;
