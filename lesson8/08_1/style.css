@@ -43,7 +43,7 @@ body {
   width: 100%;
   height: 100%;
   background-color: #fedd83;
-  border: 1px solid green;  
+  /* border: 1px solid green;   */
 }
 
 .flex-item {
@@ -55,56 +55,52 @@ body {
   margin: 50px 30px;
   background-color: white;
   box-shadow: 2px 2px 10px black ;
-  border: 1px solid red;
+  /* border: 1px solid red; */
+}
+
+.flex-item:hover{
+  height: 550px;
+  box-shadow: none;
+  margin: 30px;
+  cursor: pointer;
 }
 
 img {
   display: flex;
-  /* position: absolute; */
-  /* margin-top: 120px; */
-  /* margin-left: 0px; */
-  /* align-items: center; */
-  margin: 0 auto;
   width: 135px;
   height: 134px;
+  margin: 0 auto;
   background-color: white;
 }
 
 .prise {
   display: flex;
-  /* position: absolute; */
-  /* margin-top: 40px; */
-  /* margin-left: 150px; */
   width: fit-content;
   margin: 0 auto;
-  color: seagreen;
   font-family: "Miso Regular";
   font-size: 70pt;
+  color: seagreen;
   background-color: white;
 }
 
 .name_cup {
   display: flex;
-  /* position: absolute; */
-  /* margin-top: 290px; */
-  /* margin-left: 0px; */
   width: fit-content;
   margin: 0 auto;
-  color: black;
   font-family: "Lato Light";
   font-size: 40pt;
   font-weight: 800;
+  color: black;
   background-color: white;
 }
 
 .text_bot {
   display: flex;
-  /* margin-top: 360px; */
-  /* position: absolute; */
   width: 70%;
   margin: 0 auto;
-  color: black;
   font-family: "Lato Light";
   font-size: 20pt;
+  text-align: center;
+  color: black;
   background-color: white;
 }
