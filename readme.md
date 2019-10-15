@@ -23,4 +23,14 @@ https://valentinzhovtobryuh.github.io/BeetRoot/lesson4/01_simple/index.html
 * task 2
 https://valentinzhovtobryuh.github.io/BeetRoot/lesson4/02_hard/index.html
 
+# Lesson 5
+* task 1
+https://valentinzhovtobryuh.github.io/BeetRoot/lesson5/05_1/index.html
+
+* task 2
+https://valentinzhovtobryuh.github.io/BeetRoot/lesson4/05_2/index.html
+
+# Lesson 6
+* task 1
+
 
