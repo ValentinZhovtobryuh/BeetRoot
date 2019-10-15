@@ -1,10 +1,7 @@
-Залить на Github все имеющиеся практические домашние задания в разные репозитории. 
-https://github.com/ValentinZhovtobryuh/BeetRoot/tree/master/lesson1
-https://github.com/ValentinZhovtobryuh/BeetRoot/tree/master/lesson2
-https://github.com/ValentinZhovtobryuh/BeetRoot/tree/master/lesson3
+2) Залить на Github все имеющиеся практические домашние задания в разные репозитории. Добавить новую ветку в рамках репозитория с резюме и дополнить основной файл резюме ссылками на выполненные работы.
 
-Добавить новую ветку в рамках репозитория с резюме
-https://github.com/ValentinZhovtobryuh/BeetRoot/tree/master/resume
+Прислать преподавателю ссылку.
+https://valentinzhovtobryuh.github.io/BeetRoot/
 
-дополнить основной файл резюме ссылками на выполненные работы
-https://github.com/ValentinZhovtobryuh/BeetRoot/blob/master/resume/index.html
+использовать хостинг с другой ветки для Github pages
+https://github.com/ValentinZhovtobryuh/BeetRoot/tree/master

@@ -1,1 +1,6 @@
-https://valentinzhovtobryuh.github.io/ - GitHub Page with my resume
+1) Залить свое резюме, сделанное на первом занятии на Github и захостить на Github pages, отправить ссылку преподавателю.
+
+ссылка на резюме рабочая
+картинки отображаются *хз почему путь ?
+
+https://valentinzhovtobryuh.github.io/BeetRoot/lesson1/index.html
