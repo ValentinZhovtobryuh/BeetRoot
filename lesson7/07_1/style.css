@@ -114,9 +114,13 @@ span {
   /* border: 1px solid blue; */
 }
 
-li:hover {
+.menu:hover {
   background-color: #26b4b6;
   cursor: pointer;
   color: white;
   opacity: 0.6;
+}
+
+div.menu:hover .icon_bot {
+  opacity: 1;
 }
