@@ -48,8 +48,7 @@ https://valentinzhovtobryuh.github.io/BeetRoot/lesson7/07_2/index.html
 * task 1
 https://valentinzhovtobryuh.github.io/BeetRoot/lesson8/08_1/index.html
 
-# Lesson 8
-* task 2
+* task 2 not do it
 https://valentinzhovtobryuh.github.io/BeetRoot/lesson8/08_2/index.html
 
 
