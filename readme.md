@@ -28,9 +28,34 @@ https://valentinzhovtobryuh.github.io/BeetRoot/lesson4/02_hard/index.html
 https://valentinzhovtobryuh.github.io/BeetRoot/lesson5/05_1/index.html
 
 * task 2
-https://valentinzhovtobryuh.github.io/BeetRoot/lesson4/05_2/index.html
+https://valentinzhovtobryuh.github.io/BeetRoot/lesson5/05_2/index.html
 
 # Lesson 6
 * task 1
+https://valentinzhovtobryuh.github.io/BeetRoot/lesson6/06_1/index.html
+
+* task 2
+https://valentinzhovtobryuh.github.io/BeetRoot/lesson6/06_2/index.html
+
+# Lesson 7
+* task 1
+https://valentinzhovtobryuh.github.io/BeetRoot/lesson7/06_1/index.html
+
+* task 2
+https://valentinzhovtobryuh.github.io/BeetRoot/lesson7/07_2/index.html
+
+# Lesson 8
+* task 1
+https://valentinzhovtobryuh.github.io/BeetRoot/lesson8/08_1/index.html
+
+# Lesson 8
+* task 2
+https://valentinzhovtobryuh.github.io/BeetRoot/lesson8/08_2/index.html
+
+
+
+
+
+
 
 
