@@ -22,7 +22,7 @@ header {
   height: 418px;
   margin-left: 170px;
   text-align: center;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   /* border: 1px solid red; */
 }
 
@@ -46,7 +46,7 @@ p.we_do_not {
   height: 40px;
   margin-top: 18px;
   margin-left: 210px;
-  font-family: "PT Sans", sans-serif;
+  font-family: 'PT Sans', sans-serif;
   letter-spacing: 1px;
   text-align: justify;
   text-align-last: justify; /*последнее слово дотягивает к правой границе*/
@@ -88,7 +88,7 @@ h3 {
   height: 60px;
   width: 100%;
   margin-top: 160px;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 16pt;
   font-weight: bolder;
   text-align: center;
@@ -107,7 +107,7 @@ span {
   height: 35%;
   margin-top: 225px;
   padding: 0px 15px;
-  font-family: "PT Sans", sans-serif;
+  font-family: 'PT Sans', sans-serif;
   font-size: 13pt;
   text-align: center;
   opacity: 0.8;
