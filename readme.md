@@ -39,7 +39,7 @@ https://valentinzhovtobryuh.github.io/BeetRoot/lesson6/06_2/index.html
 
 # Lesson 7
 * task 1
-https://valentinzhovtobryuh.github.io/BeetRoot/lesson7/06_1/index.html
+https://valentinzhovtobryuh.github.io/BeetRoot/lesson7/07_1/index.html
 
 * task 2
 https://valentinzhovtobryuh.github.io/BeetRoot/lesson7/07_2/index.html
