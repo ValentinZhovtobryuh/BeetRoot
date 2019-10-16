@@ -11,7 +11,7 @@ body {
   width: 1280px;
   height: 976px;
   margin: auto; /* середина страници но не центр*/
-  background-image: url(/images/Background.png);
+  background-image: url(images/Background.png);
   background-repeat: no-repeat;
   /* position: relative; */
 }
@@ -103,9 +103,9 @@ h3 {
 span {
   position: absolute;
   display: block;
-  margin-top: 225px;
   width: 100%;
   height: 35%;
+  margin-top: 225px;
   padding: 0px 15px;
   font-family: "PT Sans", sans-serif;
   font-size: 13pt;
