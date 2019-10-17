@@ -82,7 +82,7 @@ nav a {
 }
 
 .leftmenu {
-  width: 210px;
+  width: 22%;
   height: 290px;
   background-color: #7d0909;
   float: left;
@@ -92,59 +92,61 @@ nav a {
   /* border: 1px solid purple; */
 }
 
-.leftmenu a{
+.leftmenu a {
   color: #ea5b11;
 }
 
 .right_title {
-  position: absolute;
+  /* position: absolute; */
   width: 15%;
   height: 290px;
   margin-left: 83%;
+  text-align: center;
   color: black;
   background-color: #e3dddd;
-  text-align: center;
 }
 
-h4{
+h4 {
   background-color: #bdbdbd;
 }
 
-aside.right_title p{
+aside.right_title p {
     text-align: left;
     font-size: 11pt;
     background-color: #e3dddd;
     padding: 1px 2px;
   }
   
-  aside.right_title b{    
+  aside.right_title b {    
     font-size: 12pt;
     box-sizing: border-box;
   }
   
-  p.line{
+  p.line {
     color:  #9a9a9a;
     margin-left: auto;
     margin-right: auto;
     width: 40%;
   }
 
-  .maintext{
-    width: 81%;
+  .maintext {
+    position: absolute;
+    width: 56%;
     height: 290px;
-    color: white;  
-    margin-top: 15px;
-    font-size: 12pt;
+    margin-left: 25%;
     padding: 3px 3px;
+    color: white;  
+    font-size: 12pt;
+    border: 1px solid purple;
   }
 
   footer {
     position: absolute;
     width: 96%;
-    color: white;
-    background-color: #e95b11;
-    font-size: 16px;
-    text-align: center;
     margin-left: 2%;
     margin-top: 2%;
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    background-color: #e95b11;
   }
