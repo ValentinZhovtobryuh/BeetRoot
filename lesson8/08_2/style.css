@@ -1,10 +1,10 @@
 @font-face {
-    font-family: "Hans Kendrick";
-    src: url("font/HansKendrick-Regular.otf");
-    font-weight: normal;
+    font-family: 'Neue Hans Kendrick Regular';
     font-style: normal;
-  }
-  
+    font-weight: normal;
+    src: local('Neue Hans Kendrick Regular'), url('font/HansKendrick-Regular.otf') format('woff');
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -22,23 +22,28 @@ body {
     height: 1400px;
     margin-left: auto;
     margin-right: auto;
-    font-family: 'Hans Kendrick';
+    font-family: 'Neue Hans Kendrick Regular';
     background-color: #e2e7eb;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
+
+.large-item a {
+    color: white;
+}
+
 .main-container {
     position: absolute;
     width: 70%;
     height: 79%;
     margin: 92px 240px 210px 240px;
-    border: 1px solid yellow;
+    /* border: 1px solid yellow; */
 }
 .flex-container {
     display: flex;
     flex-flow: row wrap;
     justify-content:space-between;
-    /* align-content: stretch; */
     list-style-type: none;
+    color: black
 }
 
 .large-item {
@@ -46,7 +51,7 @@ body {
     flex-basis: 360px;
     margin-bottom: 20px;
     color: white;
-    border: 1px solid purple;
+    /* border: 1px solid purple; */
 }
 
 .flex-item {
@@ -54,7 +59,7 @@ body {
     flex-basis: 360px;
     height: 540px;
     background-color: white;
-    border: 1px solid green;
+    /* border: 1px solid green; */
 }
 
 .text-menu-w {
@@ -64,8 +69,6 @@ body {
     font-weight: bold;
     text-transform: uppercase;
     margin: 440px 0 0 40px;
-    /* display: inline-block; */
-    /* background-color: black; */
 }
 
 .text-menu-b {
@@ -75,8 +78,6 @@ body {
     font-weight: 900;
     text-transform: uppercase;
     margin: 290px 0 0 20px;
-    /* display: inline-block; */
-    /* background-color: black; */
 }
 
 
@@ -88,8 +89,6 @@ body {
     text-transform: uppercase;
     margin: 400px 0 0 40px;
     opacity: 0.5;
-    /* display: inline-block; */
-    /* background-color: black; */
 }
 
 .date-b {
@@ -99,8 +98,6 @@ body {
     text-transform: uppercase;
     margin: 260px 0 0 20px;
     opacity: 0.5;
-    /* display: inline-block; */
-    /* background-color: black; */
 }
 
 .author {
