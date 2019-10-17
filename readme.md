@@ -20,7 +20,7 @@ https://valentinzhovtobryuh.github.io/BeetRoot/lesson3/lesson3_2.txt
 * task 1
 https://valentinzhovtobryuh.github.io/BeetRoot/lesson4/01_simple/index.html
 
-* task 2
+* task 2 (right title is down in click menu)
 https://valentinzhovtobryuh.github.io/BeetRoot/lesson4/02_hard/index.html
 
 # Lesson 5
@@ -41,7 +41,7 @@ https://valentinzhovtobryuh.github.io/BeetRoot/lesson6/06_2/index.html
 * task 1
 https://valentinzhovtobryuh.github.io/BeetRoot/lesson7/07_1/index.html
 
-* task 2
+* task 2 (not completed)
 https://valentinzhovtobryuh.github.io/BeetRoot/lesson7/07_2/index.html
 
 # Lesson 8
