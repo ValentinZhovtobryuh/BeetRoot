@@ -48,9 +48,11 @@ https://valentinzhovtobryuh.github.io/BeetRoot/lesson7/07_2/index.html
 * task 1
 https://valentinzhovtobryuh.github.io/BeetRoot/lesson8/08_1/index.html
 
-* task 2
+* task 2 (position)
 https://valentinzhovtobryuh.github.io/BeetRoot/lesson8/08_2/index.html
 
+* task 2 (flex)
+https://valentinzhovtobryuh.github.io/BeetRoot/lesson8/08_2/indexflex.html
 
 
 
