@@ -3,8 +3,7 @@
     src: url("fonts/PlayfairDisplay-Regular.ttf") format("truetype"); 
     font-style: normal; 
     font-weight: normal;
-}
-     
+}    
 @font-face {
     font-family: 'ProximaNova Regular';
     src: url("fonts/Proxima Nova Regular.otf");
@@ -17,7 +16,6 @@
     font-weight:normal;
     font-style:normal;
 }
-
 @font-face {
     font-family:"Futura PT Heavy";
     src:url("fonts/futura-pt-heavy.eot") format("eot"),
@@ -30,7 +28,7 @@
     font-style: normal;
     font-weight: normal;
     src: local('Georgia Regular'), url('georgia.woff') format('woff');
-    }
+}
 
 * {
     margin: 0;
@@ -49,7 +47,7 @@ body {
     height: 900px;
     margin: 0 auto;
     background: #475054;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .main-box {
@@ -59,12 +57,11 @@ body {
     margin-left: 70px;
     margin-top: 147px;
     background-color: white;
-    /* box-shadow: 1px 1px 40px 10px grey; */
     /* border: 1px solid yellow ; */
 }
 .head-top {
     position: absolute;
-    width: 874px;
+    width: 876px;
     height: 190px;
     margin-left: 324px;
     margin-top: 48px;
@@ -74,16 +71,18 @@ body {
 
 .edit-panel {
     position: absolute;
-    width: 808px;
+    width: 810px;
     height: 77px;
     margin-left: 390px;
     margin-top: 238px;
     background-color: #f2b63d;
+    background-image: url(fonts/Icons.png);
+    background-repeat: no-repeat;
+    background-position: left 45px top 25px;
 }
 
 .head-top-title {
     position: absolute;
-    /* display: inline; */
     font-family: 'ProximaNova Regular';
     font-size: 15pt;
     letter-spacing: 3px; 
@@ -93,13 +92,12 @@ body {
 
 }
 .head-top-text {
-    /* display: block; */
     width: 92%;
     border-bottom: 1px solid grey;
-    font-size: 48pt;
-    letter-spacing: 3px; 
+    font-size: 44pt;
+    letter-spacing: -3px; 
     margin-left: 65px;
-    margin-top: 55px;
+    margin-top: 60px;
     font-family: 'Playfair Display', serif;
     color: white;
 }
@@ -111,13 +109,14 @@ body {
     letter-spacing: 3px; 
     text-transform: uppercase;
     color: grey;
+    opacity: 0.7;
 }
 
 h1 {
     margin-left: 125px;
-    margin-top: 0px;
+    margin-top: 20px;
     font-family:"Futura PT Heavy";
-    font-size: 60pt;
+    font-size: 64pt;
     font-weight: normal;
     text-transform: uppercase;
     color: black;
