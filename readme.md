@@ -58,6 +58,8 @@ https://valentinzhovtobryuh.github.io/BeetRoot/lesson8/08_2/indexflex.html
 * task 1
 https://valentinzhovtobryuh.github.io/BeetRoot/lesson9/09_1/index.html
 
+* task 2
+https://valentinzhovtobryuh.github.io/BeetRoot/lesson9/09_2/index.html
 
 
 
