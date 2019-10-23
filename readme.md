@@ -54,6 +54,9 @@ https://valentinzhovtobryuh.github.io/BeetRoot/lesson8/08_2/index.html
 * task 2 (flex)
 https://valentinzhovtobryuh.github.io/BeetRoot/lesson8/08_2/indexflex.html
 
+# Lesson 9
+* task 1
+https://valentinzhovtobryuh.github.io/BeetRoot/lesson9/09_1/index.html
 
 
 
