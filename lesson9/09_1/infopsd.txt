@@ -1,0 +1,14 @@
+Ўрифты
+PlayfairDisplay Regular
+Lato Light
+Lato LightItalic
+Lato Bold
+
+размеры макета
+0-1600
+1400
+
+отступы
+130/100/330/100
+
+130/120/120/120
