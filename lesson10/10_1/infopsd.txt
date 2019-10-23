@@ -1,0 +1,25 @@
+Ўрифты
+Raleway Light
+Raleway Bold
+Raleway Heavy
+
+размеры макета
+1500
+864
+
+back color 	#AD79F3
+bottom		#FA2D3C
+
+отступы
+- t100 center Raleway Bold 90pt
+- t216 center Raleway Light 17pt
+
+menu
+- t321 b217 l165 r965 (w380 p5 h326 p2)
+	*t360 r1245 b445 l195  m l30 t40
+	*t538 r1008 b248 l185 
+- t321 b217 l=r=565 (w380 p5 h326 p2)
+- t321 b217 l965 r165 (w380 p5 h326 p2)
+
+bottom
+- t689 b120 l=r=650
