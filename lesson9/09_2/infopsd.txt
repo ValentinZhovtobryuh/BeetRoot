@@ -1,0 +1,19 @@
+Ўрифты
+PlayfairDisplay Regular
+ProximaNova Regular
+FuturaPT Heavy
+
+размеры макета
+1200
+900
+
+back color 	#475054
+black 		#1e1e1e
+yel		#f2b63d
+w		#ffffff
+
+
+отступы
+130/100/330/100
+
+130/120/120/120
