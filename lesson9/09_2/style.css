@@ -25,6 +25,12 @@
     font-weight:normal;
     font-style:normal;
 }
+@font-face {
+    font-family: 'Georgia Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Georgia Regular'), url('georgia.woff') format('woff');
+    }
 
 * {
     margin: 0;
@@ -114,9 +120,30 @@ h1 {
     font-size: 60pt;
     font-weight: normal;
     text-transform: uppercase;
-
     color: black;
 }
+
+h2 {
+    margin-left: 125px;
+    margin-top: 0px;
+    font-family: 'Georgia Regular';
+    font-size: 24pt;
+    font-weight: normal;
+    /* text-transform: uppercase; */
+    color: grey;
+}
+
+
+.text-selection {
+    text-align: justify;
+    margin: 40px 120px 0px 125px;
+    font-family: 'Georgia Regular';
+    font-size: 20pt;
+    font-weight: normal;
+    line-height: 150%;
+    color: black;
+}
+
 /*
 p {
     font-family:"Lato Light";
