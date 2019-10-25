@@ -1,0 +1,87 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+body {
+    width: 1600px;
+    height: 736px;
+    margin: 20px auto;
+    background-image: url(images/grid.png);
+    border: 1px solid red;
+}
+
+main {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: 1px solid yellow;
+    }
+    
+h1 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: max-content;
+    margin-top: 105px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 34pt;
+    text-transform: uppercase;
+}
+ .main_box > p {
+    position: absolute;
+    width: 570px;
+    margin-top: 200px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: justify;
+    text-align-last: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 16pt;
+    font-weight: 300;
+    /* line-height: 150%; */
+    border: 1px solid red;
+ }
+ ul{
+     list-style-type: none;
+ }
+.main_nav {
+    position: relative;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    width: 100%;
+    height: 330px;
+    margin-top: 290px;
+    border: 1px solid black;
+
+}
+.main_menu{
+    display: flex;
+}
+.vw{
+    width: 270px;
+    height: 270px;
+}
+ .menu_name {
+    margin-top: 15px;
+    font-family: 'Lato', sans-serif;
+    font-size: 16pt;
+    font-weight: bold;
+ }
+ .menu_position {
+    font-size: 16pt;
+    font-weight: 300;
+    opacity: 0.5;
+ }
+ 
