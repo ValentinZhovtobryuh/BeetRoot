@@ -71,9 +71,13 @@ list-style-type: none;
     
      div[class^="menu"] {
         width: 370px;
-        height: 320px;
+        height: 310px;
         background-position: center;
         background-repeat: no-repeat;
+        background-color:  rgb(0, 0, 0, 0.4);
+        opacity: 0.8;
+        transition-property: border-radius opacity;
+        transition-duration: 1s;
         }
 
         .menu1 {
@@ -95,7 +99,7 @@ list-style-type: none;
             margin-top: 30px;
             text-align: center;
             border-radius: 5px;
-            background-color: rgb(0, 0, 0, 0.4);
+            /* background-color: rgb(0, 0, 0, 0.4); */
             }
         
             .menu_date_number {
@@ -149,13 +153,8 @@ list-style-type: none;
         cursor: pointer;
     }
     
-    .main_menu:hover .item-date-block{
-        border-radius: 50%;
-        background-color: red;
+    .main_menu:hover div[class^="menu"], div.menu_text_bottom {
+        opacity: 1;
+        border-radius: 25%;
+        box-shadow: 5px 5px 50px black;
     }
-    
-    .item:hover .item-title {
-        transform: translateX(10px);
-        text-shadow: 0 -3px 10px #000000;
-    }
-    
