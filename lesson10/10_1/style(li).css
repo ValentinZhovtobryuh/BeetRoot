@@ -119,13 +119,16 @@ list-style-type: none;
 
         div.menu_text_bottom {
             position: absolute;
-            width: 350px;
+            width: 340px;
             height: 85px;
-            margin-left: 20px;
-            margin-top: 210px;
+            margin-left: 15px;
+            margin-top: 200px;
             font-family: 'Raleway', sans-serif;    
             font-size: 16pt;
             font-weight: bold;
+            background-color: transparent;
+            /* transition-property: border-radius; */
+            transition-duration: 1s;    
             }
                 .menu_text_bottom > span {
                 font-family: 'Raleway', sans-serif;    
@@ -153,8 +156,9 @@ list-style-type: none;
         cursor: pointer;
     }
     
-    .main_menu:hover div[class^="menu"], div.menu_text_bottom {
+    .main_menu:hover div[class^="menu"]{
         opacity: 1;
-        border-radius: 25%;
+        border-radius: 20%;
         box-shadow: 5px 5px 50px black;
+        text-align: center;
     }
