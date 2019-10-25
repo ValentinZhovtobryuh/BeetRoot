@@ -62,8 +62,8 @@ https://valentinzhovtobryuh.github.io/BeetRoot/lesson9/09_1/index.html
 https://valentinzhovtobryuh.github.io/BeetRoot/lesson9/09_2/index.html
 
 # Lesson 10
-* task 1 begin
-https://valentinzhovtobryuh.github.io/BeetRoot/lesson10/10_1/index.html
+* task 1 begin (ul,li)
+https://valentinzhovtobryuh.github.io/BeetRoot/lesson10/10_1/index(li).html
 
 
 
