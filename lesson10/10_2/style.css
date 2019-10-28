@@ -37,6 +37,8 @@ h1 {
     font-weight: bold;
     font-size: 34pt;
     text-transform: uppercase;
+    letter-spacing: 5px;
+    word-spacing: 10px;
 }
  .main_box > p {
     position: absolute;
