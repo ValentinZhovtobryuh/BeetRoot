@@ -1,0 +1,49 @@
+Ўрифты
+Raleway Light
+Raleway Bold
+Pacifico Regular
+
+размеры макета
+1500x960
+
+head w340
+t101 Contact Raleway 90 
+
+lead w340
+t214
+For new projects, ideas, business or anything you'd like to dis
+
+ 
+
+input 1-3 w500 h50 
+Raleway 15 Light/Bold.border-left  (hover bg-color #00C3C2) 
+bg-color #92D2DF
+t301 r835 b605 l165
+Auskteez Tran
+Your email...
+Your phone number...
+Your messge...
+
+
+input 4 w500 h250
+
+aside
+t301 r348 b495 l835
+ADDRESS 
+123 City name, Street, City, Country 
+
+EMAIL 
+cahee@domain
+
+PHONE
++012 345 6789
+
+footer w1500h956 bg-color #2a2a2a
+t866
+copyright l164 Raleway 16
+© 2015 Company. All right reserved. 
+
+Cahee center logo-small Pacifico 25
+
+made r164 
+Made with love by Auskteez -15-

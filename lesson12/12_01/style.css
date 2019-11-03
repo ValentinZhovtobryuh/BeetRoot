@@ -1,0 +1,71 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+html {
+    width: 100%;
+    max-width: 1500px;
+    max-height: 960px;
+    border: 1px solid red;
+}
+
+body {
+    padding: 9%;
+    background-image: url(images/background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+    .main-header {
+       width: 370px; 
+       height: 170px;
+       margin: 0 auto;
+       text-align: center;
+       font-family: 'Raleway', sans-serif;
+       border: 1px solid yellow;
+    }
+
+        .head-line {
+            font-size: 60pt;
+            font-weight: bold;
+        }
+        
+        .head-lead {
+            font-size: 12pt;
+            font-weight: 300;
+        }
+
+    input, textarea {
+        width: 40%;
+        max-width: 500px;
+        height: 50px;
+        margin-top: 16px;
+        padding-left: 16px;
+        font-size: 12pt;
+        font-weight: 300;
+        background-color: #92D2DF;
+    }
+    textarea {
+        height: 250px;
+    }
+    
+    ::-webkit-input-placeholder {color:white;}
+    ::-moz-placeholder          {color:white;}/* Firefox 19+ */
+    :-moz-placeholder           {color:white;}/* Firefox 18- */
+    :-ms-input-placeholder      {color:white;} 
+    :focus::-webkit-input-placeholder {color: transparent}
+    :focus::-moz-placeholder          {color: transparent}
+    :focus:-moz-placeholder           {color: transparent}
+    :focus:-ms-input-placeholder      {color: transparent}
+
+
+    aside {
+        display: block;
+        float: right;
+        /* position: absolute; */
+        max-width: 25%;
+        
+    }
