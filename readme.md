@@ -72,3 +72,6 @@ https://valentinzhovtobryuh.github.io/BeetRoot/lesson10/10_2/index.html
 * task 1 
 https://valentinzhovtobryuh.github.io/BeetRoot/lesson11/11_01/index.html
 
+# Lesson 12
+* task 1 
+https://valentinzhovtobryuh.github.io/BeetRoot/lesson11/12_01/index.html
