@@ -10,23 +10,39 @@ body {
 .desk-one {
   width: 100vw;
   height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   background-image: url(images/one-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   border: 1px solid red; }
 
+.desk-center {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  width: 35%;
+  height: 40%;
+  margin: 0 auto;
+  border: 1px solid yellow; }
+
 .one-headline {
-  width: 30%;
+  width: 100%;
   margin: 0 auto;
   font-family: 'Lato', sans-serif;
   font-size: 52pt;
   color: white;
   text-transform: uppercase;
-  text-align: center; }
+  text-align: center;
+  border: 1px solid green; }
 
 .one-lead {
   font-family: 'Lato', sans-serif;
   font-size: 15pt;
   color: white;
-  text-align: center; }
+  text-align: center;
+  text-transform: uppercase;
+  border: 1px solid green; }
