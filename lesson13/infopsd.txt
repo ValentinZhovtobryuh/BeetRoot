@@ -1,0 +1,116 @@
+Øðèôòû
+Lato Light
+Lato Bold
+Lato Regular
+
+ðàçìåðû ìàêåòà
+1920x1070
+
+t285
+Logo
+
+t450
+Lato Bold 54
+660 WORKING WITH design LAB 1260
+
+t600
+We’ve been helping startups launch and grow their businesses. We help you to fill the gap between development, design and product management.
+-------------
+w1920h630
+
+color b
+Lato Bold 34
+ABOUT US
+
+w900h310
+
+w610h250
+Lato Light 16
+When you work with us, you are part of a team of committed collaborators. All aspects of our software development process are integrated, iterative and agile. Our approach unifies design, development and product management to create exceptional products. We start each project by understanding your business goals, the user’s needs and the product requirements. Then we help translate them into effective and elegant solutions.
+--------------
+w1920h490
+
+bg100%
+
+color w
+Lato Bold 34
+SERVICES
+
+w570h160
+Lato Light 16
+Before we sign a contract or write a line of code our team will spend the necessary time needed to understand your product vision. The outcome of this scoping session is a proposal or high-level statement of work. Based on your requirements, we can provide a complete offering or just the pieces you need. 
+----------------
+w1920h1410
+color b
+
+t105
+Lato Bold 34
+what we do
+
+t110
+w900h1180
+
+t210
+
+
+w570h270
+svg
+
+Lato Bold 20
+DESIGN
+
+Lato Light 14
+Our design practice offers a full range of services including branding strategy, interaction and visual design and user experience testing. Throughout your project, our designers create and implement visual designs and workflows, solicit user feedback, and work with you to make sure what gets built is what is needed. 
+
+w570h270
+svg
+
+Lato Bold 20
+Development 
+
+Lato Light 14
+All engineers are fluent in the latest enterprise, mobile and web development technologies. They collaborate with your team to write, test, and improve code on a daily basis, using proven practices such as test-driven development and pair programing.
+
+Lato Bold 20
+Product Management 
+
+Lato Light 14
+Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live. This iterative process allows for changes as business requirements evolve. 
+______________________
+w1920h490 
+
+color w
+Lato Bold 34
+w550h240 w805h240 w550h240
+w550h240 w805h240 w550h240
+
+bot-left
+topworkz joint MArket
+worktop lable Kyiv
+_____________________
+w1920h600
+
+
+Lato Bold 30
+CONTACT us
+w900h310
+
+w570h290
+
+w570h80
+Lato Light 14
+Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live. This iterative process allows for changes as business requirements evolve. 
+
+btm
+w400h80
+bg b
+color w
+Lato Regular 16
+CONTACT us
+_______________________
+footer
+
+svg Lato Regular 14 © 2014. All Rights Reserved Ellipsis.com
+
+
+ 
