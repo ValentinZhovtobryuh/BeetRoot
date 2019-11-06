@@ -16,15 +16,21 @@ body {
   background-image: url(images/one-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: right;
   border: 1px solid red; }
+
+.desk-two {
+  width: 100vw;
+  height: 100vh;
+  max-width: 1920px;
+  max-height: 630px; }
 
 .desk-center {
   display: flex;
   justify-content: space-around;
   flex-direction: column;
   align-items: center;
-  width: 35%;
+  width: 45%;
   height: 40%;
   margin: 0 auto;
   border: 1px solid yellow; }
@@ -39,6 +45,22 @@ body {
   text-align: center;
   border: 1px solid green; }
 
+.two-headline {
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  font-size: 2.8em; }
+
+.two-lead {
+  width: 610px;
+  height: 250px;
+  margin: 0 auto;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 1.3em;
+  text-align: center;
+  border: 1px solid black; }
+
 .one-lead {
   font-family: 'Lato', sans-serif;
   font-size: 15pt;
@@ -50,12 +72,36 @@ body {
 @media only screen and (min-device-width: 320px) and (max-device-width: 768px) {
   .desk-one {
     background-size: cover;
-    background-position: right;
-  }
+    background-position: right; }
   .desk-center {
     width: 95%;
-    height: 95%; }
+    height: 95%;
+    justify-content: space-evenly; }
   .one-headline {
-    font-size: 2.5em; }
+    font-size: 2em; }
   .one-lead {
-    font-size: 1.2em; } }
+    font-size: 1em; } }
+
+@media only screen and (min-device-width: 769px) and (max-device-width: 1366px) {
+  .desk-one {
+    background-size: cover;
+    background-position: right; }
+  .desk-center {
+    width: 75%;
+    height: 75%; }
+  .one-headline {
+    font-size: 2.7em; }
+  .one-lead {
+    font-size: 1.3em; } }
+
+@media only screen and (min-device-width: 1367px) and (max-device-width: 1600px) {
+  .desk-one {
+    background-size: cover;
+    background-position: right; }
+  .desk-center {
+    width: 55%;
+    height: 55%; }
+  .one-headline {
+    font-size: 4em; }
+  .one-lead {
+    font-size: 2em; } }
