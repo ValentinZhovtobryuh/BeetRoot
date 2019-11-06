@@ -33,7 +33,7 @@ body {
   width: 100%;
   margin: 0 auto;
   font-family: 'Lato', sans-serif;
-  font-size: 52pt;
+  font-size: 4.5em;
   color: white;
   text-transform: uppercase;
   text-align: center;
@@ -46,3 +46,16 @@ body {
   text-align: center;
   text-transform: uppercase;
   border: 1px solid green; }
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 768px) {
+  .desk-one {
+    background-size: cover;
+    background-position: right;
+  }
+  .desk-center {
+    width: 95%;
+    height: 95%; }
+  .one-headline {
+    font-size: 2.5em; }
+  .one-lead {
+    font-size: 1.2em; } }
