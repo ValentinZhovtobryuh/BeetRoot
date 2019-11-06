@@ -16,14 +16,14 @@ body {
   background-image: url(images/one-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: right;
-  border: 1px solid red; }
+  background-position: right; }
 
 .desk-two {
   width: 100vw;
   height: 100vh;
   max-width: 1920px;
-  max-height: 630px; }
+  max-height: 630px;
+  padding: 1px; }
 
 .desk-center {
   display: flex;
@@ -32,22 +32,20 @@ body {
   align-items: center;
   width: 45%;
   height: 40%;
-  margin: 0 auto;
-  border: 1px solid yellow; }
+  margin: 0 auto; }
 
 .one-headline {
   width: 100%;
   margin: 0 auto;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   font-size: 4.5em;
   color: white;
   text-transform: uppercase;
-  text-align: center;
-  border: 1px solid green; }
+  text-align: center; }
 
 .two-headline {
   text-align: center;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: bold;
   font-size: 2.8em; }
 
@@ -55,19 +53,25 @@ body {
   width: 610px;
   height: 250px;
   margin: 0 auto;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: 300;
   font-size: 1.3em;
   text-align: center;
   border: 1px solid black; }
 
 .one-lead {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   font-size: 15pt;
   color: white;
   text-align: center;
-  text-transform: uppercase;
-  border: 1px solid green; }
+  text-transform: uppercase; }
+
+.box-lead {
+  width: 900px;
+  height: 310px;
+  align-items: center;
+  margin: 0 auto;
+  border: 2px solid black; }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 768px) {
   .desk-one {
