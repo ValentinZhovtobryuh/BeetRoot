@@ -18,7 +18,7 @@ body {
   background-size: cover;
   background-position: right; }
 
-.desk-two {
+.desk-two, .desk-three {
   display: flex;
   width: 100vw;
   height: 100vh;
@@ -27,34 +27,51 @@ body {
   padding: 1px;
   justify-content: center;
   align-items: center; }
-  .desk-two .box-lead {
-    display: flex;
-    position: relative;
-    width: 46%;
-    height: 50%;
-    max-width: 900px;
-    max-height: 310px;
-    justify-content: center;
-    align-items: center;
-    border: 2px solid black; }
-  .desk-two .two-lead {
-    display: flex;
-    flex-direction: column;
-    width: 90%;
-    height: 90%;
-    text-align: center;
-    justify-content: center;
-    font-family: "Lato", sans-serif;
-    font-weight: 300;
-    font-size: 1.3em; }
-  .desk-two .two-headline {
-    position: absolute;
-    top: -0.6em;
-    padding: 0 7%;
-    font-family: "Lato", sans-serif;
-    font-weight: bold;
-    font-size: 2.8em;
-    background-color: white; }
+
+.desk-three {
+  background-image: url(images/three-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+  .desk-three .two-headline {
+    color: white;
+    background-color: transparent; }
+  .desk-three .two-lead {
+    color: white;
+    font-weight: lighter; }
+
+.box-lead {
+  display: flex;
+  position: relative;
+  width: 46%;
+  height: 50%;
+  max-width: 900px;
+  max-height: 310px;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black; }
+
+.two-lead {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  height: 90%;
+  text-align: center;
+  justify-content: center;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: 1.3em;
+  line-height: 2; }
+
+.two-headline {
+  position: absolute;
+  top: -0.6em;
+  padding: 0 7%;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  font-size: 2.8em;
+  letter-spacing: 5px;
+  background-color: white; }
 
 .desk-center {
   display: flex;
@@ -93,13 +110,13 @@ body {
     font-size: 2em; }
   .one-lead {
     font-size: 1em; }
-  .desk-two .box-lead {
+  .desk-two .box-lead, .desk-three .box-lead {
     width: 95%;
     height: 95%; }
-    .desk-two .box-lead .two-headline {
-      font-size: 1.2em; }
-    .desk-two .box-lead .two-lead {
-      font-size: 1em; } }
+    .desk-two .box-lead .two-headline, .desk-three .box-lead .two-headline {
+      font-size: 1.5em; }
+    .desk-two .box-lead .two-lead, .desk-three .box-lead .two-lead {
+      font-size: 0.9em; } }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1366px) {
   .desk-one {
@@ -112,12 +129,12 @@ body {
     font-size: 2.7em; }
   .one-lead {
     font-size: 1.3em; }
-  .desk-two .box-lead {
+  .desk-two .box-lead, .desk-three .box-lead {
     width: 70%;
     height: 70%; }
-    .desk-two .box-lead .two-headline {
+    .desk-two .box-lead .two-headline, .desk-three .box-lead .two-headline {
       font-size: 1.8em; }
-    .desk-two .box-lead .two-lead {
+    .desk-two .box-lead .two-lead, .desk-three .box-lead .two-lead {
       font-size: 1.3em; } }
 
 @media only screen and (min-device-width: 1367px) and (max-device-width: 1600px) {
@@ -131,10 +148,10 @@ body {
     font-size: 4em; }
   .one-lead {
     font-size: 2em; }
-  .desk-two .box-lead {
+  .desk-two .box-lead, .desk-three .box-lead {
     width: 60%;
     height: 60%; }
-    .desk-two .box-lead .two-headline {
+    .desk-two .box-lead .two-headline, .desk-three .box-lead .two-headline {
       font-size: 2.2em; }
-    .desk-two .box-lead .two-lead {
+    .desk-two .box-lead .two-lead, .desk-three .box-lead .two-lead {
       font-size: 1.6em; } }

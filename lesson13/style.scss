@@ -24,7 +24,7 @@ body {
   background-position: right;
   // border: 1px solid red;
 }
-.desk-two {
+.desk-two, .desk-three {
   // position: relative;
   // display: table-cell;
   display: flex;
@@ -39,6 +39,25 @@ body {
   // vertical-align: middle;
   // align-content: center;
   // align-self: center;
+}
+
+.desk-three {
+  background-image: url(images/three-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  .two-headline {
+    color: white;
+    background-color: transparent;
+    // background-image: url(images/three-bg.png);
+    // background-repeat: no-repeat;
+    // background-size: unset;
+  }
+  .two-lead {
+    color: white;
+    font-weight: lighter;
+  }
+}
 
   .box-lead {
     display: flex;
@@ -66,6 +85,7 @@ body {
       font-family: "Lato", sans-serif;
       font-weight: 300;
       font-size: 1.3em;
+      line-height: 2;
       // border: 1px solid black;
     }
   .two-headline {
@@ -75,9 +95,10 @@ body {
     font-family: "Lato", sans-serif;
     font-weight: bold;
     font-size: 2.8em;
+    letter-spacing: 5px;
     background-color: white;
   }
-  }
+
   
 .desk-center {
   display: flex;
@@ -124,16 +145,16 @@ body {
   .one-lead {
     font-size: 1em;
   }
-  .desk-two{
+  .desk-two, .desk-three {
 
     .box-lead {
       width: 95%;
       height: 95%;
       .two-headline {
-        font-size: 1.2em;
+        font-size: 1.5em;
       }
       .two-lead {
-        font-size: 1em;
+        font-size: 0.9em;
       }
   }
 
@@ -155,7 +176,7 @@ body {
   .one-lead {
     font-size: 1.3em;
   }
-  .desk-two{
+  .desk-two, .desk-three{
 
     .box-lead {
       width: 70%;
@@ -186,7 +207,7 @@ body {
   .one-lead {
     font-size: 2em;
   }
-  .desk-two{
+  .desk-two, .desk-three{
 
     .box-lead {
       width: 60%;
