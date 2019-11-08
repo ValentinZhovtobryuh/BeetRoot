@@ -6,39 +6,28 @@
 body {
   max-width: 100vh;
   max-height: 100vw;
-  // margin: 0 auto;
 }
 
-.desk-one {
-  width: 100vw;
-  height: 100vh;
-  // max-width: 1920px;
-  // max-height: 1070px;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  // margin: 0 auto;
-  background-image: url(images/one-bg.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: right;
-  // border: 1px solid red;
-}
-.desk-two, .desk-three {
-  // position: relative;
-  // display: table-cell;
+.desk-one, .desk-two, .desk-three, .desk-four {
   display: flex;
   width: 100vw;
   height: 100vh;
   max-width: 1920px;
   max-height: 630px;
+  margin: 0 auto;
   padding: 1px;
   justify-content: center;
   align-items: center;
-  // text-align: center;
-  // vertical-align: middle;
-  // align-content: center;
-  // align-self: center;
+}
+
+.desk-one {
+  max-height: 1070px;
+  flex-direction: column;
+  background-image: url(images/one-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+  // border: 1px solid red;
 }
 
 .desk-three {
@@ -59,20 +48,65 @@ body {
   }
 }
 
+.desk-four {
+  max-height: 1410px;
+  border: 1px solid red;
+}
+.box-four {
+display: flex;
+position: relative;
+flex-flow: column nowrap;
+width: 46%;
+height: 83%;
+max-width: 900px;
+max-height: 1180px;
+justify-content: center;  
+align-items: center;
+text-align: center;
+border: 1px solid green;
+}
+.icon-info {
+  // display: flex;
+  // position: relative;
+  // flex-flow: column wrap;
+  width: 70%;
+  // height: 33%;
+  max-width: 660px;
+  max-height: 330px;
+  // justify-content: space-between;  
+  // align-content: center;
+  // align-items: center;
+// text-align: center;
+  border: 1px solid black;
+}
+.svg-one {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+
+.icon-headline {
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  font-size: 1.6em;
+  // margin: 0.5em auto;
+  text-transform: uppercase;
+}
+.icon-lead {
+  font-family: "Lato", sans-serif;
+  font-weight: lighter;
+  font-size: 1.15em;
+  line-height: 1.3;
+}
   .box-lead {
     display: flex;
     position: relative;
-    // display: inline-block;
     width: 46%;
     height: 50%;
     max-width: 900px;
     max-height: 310px;
     justify-content: center;
     align-items: center;
-    // align-content: center;
-    // vertical-align: middle;
-    // text-align: center;
-    // margin: 10% 25%;
     border: 2px solid black;
   }
     .two-lead {
@@ -88,7 +122,7 @@ body {
       line-height: 1.5;
       // border: 1px solid black;
     }
-  .two-headline {
+  .two-headline, .four-headline {
     position: absolute;
     top: -0.6em;
     padding: 0 7%;
@@ -96,6 +130,7 @@ body {
     font-weight: bold;
     font-size: 2.8em;
     letter-spacing: 5px;
+    text-transform: uppercase;
     background-color: white;
   }
 
@@ -129,7 +164,7 @@ body {
   text-transform: uppercase;
   // border: 1px solid green;
 }
-@media only screen and (min-device-width: 320px) and (max-device-width: 768px) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 640px) {
   .desk-one {
     background-size: cover;
     background-position: right;
@@ -140,13 +175,12 @@ body {
     justify-content: space-evenly;
   }
   .one-headline {
-    font-size: 2em;
+    font-size: 1.5em;
   }
   .one-lead {
-    font-size: 1em;
+    font-size: 0.8em;
   }
   .desk-two, .desk-three {
-
     .box-lead {
       width: 95%;
       height: 95%;
@@ -157,11 +191,32 @@ body {
         font-size: 0.9em;
       }
   }
-
+  }
+  .box-four{
+  width: 95%;
+  height: 95%;
+    .four-headline {
+      font-size: 1.5em;
+      letter-spacing: 1px;
+    }
+    .icon-info {
+      width: 95%;
+      height: max-content;    
+    }
+  }
+  .icon-headline{
+    font-size: 0.9em;
+    margin: 0;
+  }
+  .icon-lead { 
+    font-size: 0.8em;
+  }
+  svg {
+    transform: scale(0.4);
   }
 
 }
-@media only screen and (min-device-width: 768px) and (max-device-width: 1366px) {
+@media only screen and (min-device-width: 640px) and (max-device-width: 1024px) {
   .desk-one {
     background-size: cover;
     background-position: right;
@@ -171,10 +226,10 @@ body {
     height: 75%;
   }
   .one-headline {
-    font-size: 2.7em;
+    font-size: 2.3em;
   }
   .one-lead {
-    font-size: 1.3em;
+    font-size: 1em;
   }
   .desk-two, .desk-three{
 
@@ -182,44 +237,85 @@ body {
       width: 70%;
       height: 70%;
       .two-headline {
-        font-size: 1.8em;
-      }
-      .two-lead {
         font-size: 1.3em;
       }
+      .two-lead {
+        font-size: 1em;
+      }
   }
 
   }
+  .box-four{
+    width: 85%;
+    height: 95%;
+      .four-headline {
+        font-size: 2.3em;
+        letter-spacing: 1px;
+      }
+      .icon-info {
+        width: 85%;
+      }
+    }
+    .icon-headline{
+      font-size: 1.3em;
+    }
+    .icon-lead { 
+      font-size: 1em;
+    }
+    svg {
+      transform: scale(0.7);
+    }
+  
 }
 
-@media only screen and (min-device-width: 1367px) and (max-device-width: 1600px) {
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1600px) {
   .desk-one {
     background-size: cover;
     background-position: right;
   }
   .desk-center {
-    width: 55%;
-    height: 55%;
+    width: 65%;
+    height: 65%;
   }
   .one-headline {
-    font-size: 4em;
+    font-size: 3em;
   }
   .one-lead {
-    font-size: 2em;
+    font-size: 1.8em;
   }
   .desk-two, .desk-three{
 
     .box-lead {
-      width: 60%;
-      height: 60%;
+      width: 70%;
+      height: 70%;
       .two-headline {
-        font-size: 2.2em;
+        font-size: 2.1em;
       }
       .two-lead {
-        font-size: 1.6em;
+        font-size: 1.2em;
       }
   }
 
   }
-
+  .box-four{
+    width: 80%;
+    height: 90%;
+      .four-headline {
+        font-size: 2em;
+        letter-spacing: 1px;
+      }
+      .icon-info {
+        width: 90%;
+      }
+    }
+    .icon-headline{
+      font-size: 1.5em;
+    }
+    .icon-lead { 
+      font-size: 1em;
+    }
+    svg {
+      transform: scale(0.7);
+    }
+  
 }
