@@ -7,7 +7,10 @@ body {
   max-width: 100vh;
   max-height: 100vw; }
 
-.desk-one, .desk-two, .desk-three, .desk-four {
+.desk-one,
+.desk-two,
+.desk-three,
+.desk-four {
   display: flex;
   width: 100vw;
   height: 100vh;
@@ -61,6 +64,7 @@ body {
   align-items: center; }
 
 .icon-svg {
+  display: block;
   width: 50px;
   height: 50px;
   margin: 0 auto; }
@@ -99,7 +103,8 @@ body {
   font-size: 1.3em;
   line-height: 1.5; }
 
-.two-headline, .four-headline {
+.two-headline,
+.four-headline {
   position: absolute;
   top: -0.6em;
   padding: 0 7%;
@@ -147,12 +152,15 @@ body {
     font-size: 1.5em; }
   .one-lead {
     font-size: 0.8em; }
-  .desk-two .box-lead, .desk-three .box-lead {
+  .desk-two .box-lead,
+  .desk-three .box-lead {
     width: 95%;
     height: 95%; }
-    .desk-two .box-lead .two-headline, .desk-three .box-lead .two-headline {
+    .desk-two .box-lead .two-headline,
+    .desk-three .box-lead .two-headline {
       font-size: 1.5em; }
-    .desk-two .box-lead .two-lead, .desk-three .box-lead .two-lead {
+    .desk-two .box-lead .two-lead,
+    .desk-three .box-lead .two-lead {
       font-size: 0.9em; }
   .box-four {
     width: 95%;
@@ -180,12 +188,15 @@ body {
     font-size: 1.5em; }
   .one-lead {
     font-size: 0.8em; }
-  .desk-two .box-lead, .desk-three .box-lead {
+  .desk-two .box-lead,
+  .desk-three .box-lead {
     width: 95%;
     height: 95%; }
-    .desk-two .box-lead .two-headline, .desk-three .box-lead .two-headline {
+    .desk-two .box-lead .two-headline,
+    .desk-three .box-lead .two-headline {
       font-size: 1.5em; }
-    .desk-two .box-lead .two-lead, .desk-three .box-lead .two-lead {
+    .desk-two .box-lead .two-lead,
+    .desk-three .box-lead .two-lead {
       font-size: 0.9em; }
   .box-four {
     width: 90%;
@@ -195,7 +206,6 @@ body {
     display: flex;
     flex-flow: column nowrap;
     width: 30%;
-    height: 75%;
     justify-content: start;
     box-shadow: 3px 5px 10px grey; }
   .four-headline {
@@ -220,12 +230,15 @@ body {
     font-size: 2.3em; }
   .one-lead {
     font-size: 1em; }
-  .desk-two .box-lead, .desk-three .box-lead {
+  .desk-two .box-lead,
+  .desk-three .box-lead {
     width: 70%;
     height: 70%; }
-    .desk-two .box-lead .two-headline, .desk-three .box-lead .two-headline {
+    .desk-two .box-lead .two-headline,
+    .desk-three .box-lead .two-headline {
       font-size: 1.3em; }
-    .desk-two .box-lead .two-lead, .desk-three .box-lead .two-lead {
+    .desk-two .box-lead .two-lead,
+    .desk-three .box-lead .two-lead {
       font-size: 1em; }
   .four-headline {
     font-size: 1.4em;
@@ -267,12 +280,15 @@ body {
     font-size: 3em; }
   .one-lead {
     font-size: 1.8em; }
-  .desk-two .box-lead, .desk-three .box-lead {
+  .desk-two .box-lead,
+  .desk-three .box-lead {
     width: 70%;
     height: 70%; }
-    .desk-two .box-lead .two-headline, .desk-three .box-lead .two-headline {
+    .desk-two .box-lead .two-headline,
+    .desk-three .box-lead .two-headline {
       font-size: 2.1em; }
-    .desk-two .box-lead .two-lead, .desk-three .box-lead .two-lead {
+    .desk-two .box-lead .two-lead,
+    .desk-three .box-lead .two-lead {
       font-size: 1.2em; }
   .box-four {
     width: 90%;
