@@ -10,7 +10,8 @@ body {
 .desk-one,
 .desk-two,
 .desk-three,
-.desk-four {
+.desk-four,
+.desk-five {
   display: flex;
   width: 100vw;
   height: 100vh;
@@ -43,6 +44,48 @@ body {
 
 .desk-four {
   max-height: 1410px; }
+
+.desk-five {
+  max-height: 490px; }
+  .desk-five .box-five {
+    display: flex;
+    position: relative;
+    flex-flow: row wrap;
+    justify-content: center;
+    border: 1px solid green; }
+    .desk-five .box-five .menu-five {
+      display: flex;
+      width: 550px;
+      height: 240px;
+      margin: 5px 5px;
+      align-items: flex-end;
+      color: white;
+      text-transform: uppercase;
+      font-family: "Lato", sans-serif;
+      font-weight: bold;
+      font-size: 2.8em;
+      letter-spacing: 5px;
+      border: 1px solid black; }
+    .desk-five .box-five .menu-five__one {
+      background-image: url(images/Layer1.png);
+      background-size: cover; }
+    .desk-five .box-five .menu-five__two {
+      flex-grow: 1;
+      background-image: url(images/Layer2.png);
+      background-size: cover; }
+    .desk-five .box-five .menu-five__three {
+      background-image: url(images/Layer3.png);
+      background-size: cover; }
+    .desk-five .box-five .menu-five__four {
+      background-image: url(images/Layer4.png);
+      background-size: cover; }
+    .desk-five .box-five .menu-five__five {
+      flex-grow: 1;
+      background-image: url(images/Layer5.png);
+      background-size: cover; }
+    .desk-five .box-five .menu-five__six {
+      background-image: url(images/Layer6.png);
+      background-size: cover; }
 
 .box-four {
   display: flex;
@@ -174,7 +217,17 @@ body {
   .icon-lead {
     font-size: 0.8em; }
   .icon-svg > svg {
-    transform: scale(0.4) translate(-50%, -60%); } }
+    transform: scale(0.4) translate(-50%, -60%); }
+  .box-five {
+    width: 95%;
+    height: 95%; }
+    .box-five div.menu-five {
+      width: 95%;
+      height: 120px;
+      font-weight: bold;
+      font-size: 1.5em;
+      letter-spacing: 3px;
+      align-items: center; } }
 
 @media only screen and (min-device-width: 568px) and (max-device-width: 823px) {
   .desk-one {
