@@ -45,47 +45,49 @@ body {
 .desk-four {
   max-height: 1410px; }
 
-.desk-five {
-  max-height: 490px; }
-  .desk-five .box-five {
-    display: flex;
-    position: relative;
-    flex-flow: row wrap;
-    justify-content: center;
-    border: 1px solid green; }
-    .desk-five .box-five .menu-five {
-      display: flex;
-      width: 550px;
-      height: 240px;
-      margin: 5px 5px;
-      align-items: flex-end;
-      color: white;
-      text-transform: uppercase;
-      font-family: "Lato", sans-serif;
-      font-weight: bold;
-      font-size: 2.8em;
-      letter-spacing: 5px;
-      border: 1px solid black; }
-    .desk-five .box-five .menu-five__one {
-      background-image: url(images/Layer1.png);
-      background-size: cover; }
-    .desk-five .box-five .menu-five__two {
-      flex-grow: 1;
-      background-image: url(images/Layer2.png);
-      background-size: cover; }
-    .desk-five .box-five .menu-five__three {
-      background-image: url(images/Layer3.png);
-      background-size: cover; }
-    .desk-five .box-five .menu-five__four {
-      background-image: url(images/Layer4.png);
-      background-size: cover; }
-    .desk-five .box-five .menu-five__five {
-      flex-grow: 1;
-      background-image: url(images/Layer5.png);
-      background-size: cover; }
-    .desk-five .box-five .menu-five__six {
-      background-image: url(images/Layer6.png);
-      background-size: cover; }
+.box-five {
+  display: flex;
+  position: relative;
+  flex-flow: row wrap;
+  justify-content: center; }
+
+.menu-five {
+  display: flex;
+  margin: 5px 5px;
+  align-items: flex-end;
+  color: white;
+  text-transform: uppercase;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  font-size: 2.8em;
+  letter-spacing: 5px;
+  border: 1px solid black; }
+
+.menu-five__one {
+  background-image: url(images/Layer1.png);
+  background-size: cover; }
+
+.menu-five__two {
+  flex-grow: 1;
+  background-image: url(images/Layer2.png);
+  background-size: cover; }
+
+.menu-five__three {
+  background-image: url(images/Layer3.png);
+  background-size: cover; }
+
+.menu-five__four {
+  background-image: url(images/Layer4.png);
+  background-size: cover; }
+
+.menu-five__five {
+  flex-grow: 1;
+  background-image: url(images/Layer5.png);
+  background-size: cover; }
+
+.menu-five__six {
+  background-image: url(images/Layer6.png);
+  background-size: cover; }
 
 .box-four {
   display: flex;
@@ -218,16 +220,21 @@ body {
     font-size: 0.8em; }
   .icon-svg > svg {
     transform: scale(0.4) translate(-50%, -60%); }
-  .box-five {
-    width: 95%;
-    height: 95%; }
-    .box-five div.menu-five {
+  .desk-five {
+    display: block;
+    width: 100vw;
+    height: 100vh; }
+    .desk-five .box-five {
+      width: 100vw;
+      height: 100vh; }
+    .desk-five .menu-five {
       width: 95%;
-      height: 120px;
       font-weight: bold;
       font-size: 1.5em;
       letter-spacing: 3px;
-      align-items: center; } }
+      align-items: center;
+      justify-content: center;
+      flex-grow: 0; } }
 
 @media only screen and (min-device-width: 568px) and (max-device-width: 823px) {
   .desk-one {
@@ -270,7 +277,24 @@ body {
   .icon-lead {
     font-size: 0.8em; }
   .icon-svg > svg {
-    transform: scale(0.5) translate(-50%, -50%); } }
+    transform: scale(0.5) translate(-50%, -50%); }
+  .desk-five {
+    display: block;
+    width: 100vw;
+    height: 100vh; }
+    .desk-five .box-five {
+      height: 95vh;
+      align-content: center; }
+    .desk-five .menu-five {
+      flex-flow: row wrap;
+      width: 30%;
+      height: 50%;
+      font-weight: bold;
+      font-size: 1.5em;
+      letter-spacing: 3px;
+      align-items: center;
+      justify-content: center;
+      flex-grow: 0; } }
 
 @media only screen and (min-device-width: 823px) and (max-device-width: 1024px) {
   .desk-one {
@@ -320,7 +344,24 @@ body {
   .icon-lead {
     font-size: 0.8em; }
   .icon-svg > svg {
-    transform: scale(0.5) translate(-50%, -50%); } }
+    transform: scale(0.5) translate(-50%, -50%); }
+  .desk-five {
+    display: block;
+    width: 100vw;
+    height: 100vh; }
+    .desk-five .box-five {
+      width: 90vw;
+      height: 95vh;
+      align-content: center; }
+    .desk-five .menu-five {
+      width: 30%;
+      height: 50%;
+      font-weight: bold;
+      font-size: 1.5em;
+      letter-spacing: 3px;
+      align-items: center;
+      justify-content: center;
+      flex-grow: 0; } }
 
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1600px) {
   .desk-one {
@@ -360,4 +401,21 @@ body {
   .icon-svg > svg {
     transform: scale(0.9);
     width: 100%;
-    height: 100%; } }
+    height: 100%; }
+  .desk-five {
+    display: block;
+    width: 100vw;
+    height: 100vh; }
+    .desk-five .box-five {
+      height: 95vh;
+      align-items: center; }
+    .desk-five .menu-five {
+      width: 30%;
+      height: 50%;
+      font-weight: bold;
+      font-size: 2.5em;
+      letter-spacing: 3px;
+      align-items: flex-end; }
+    .desk-five .menu-five__two,
+    .desk-five .menu-five__five {
+      flex-grow: 1; } }
