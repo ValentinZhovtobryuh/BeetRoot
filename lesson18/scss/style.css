@@ -28,7 +28,7 @@ a {
 
 .desk-one {
   height: 870px;
-  background-image: url(/images/head_back.png);
+  background-image: url(../images/head_back.png);
   color: white;
   text-transform: uppercase;
 }
@@ -50,7 +50,7 @@ a {
 
 .desk-six {
   max-height: 247px;
-  background-image: url(/images/footer_back.png);
+  background-image: url(../images/footer_back.png);
 }
 
 .box-desk {
