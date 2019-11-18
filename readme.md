@@ -84,4 +84,7 @@ https://valentinzhovtobryuh.github.io/BeetRoot/lesson12/12_02/index.html
 https://valentinzhovtobryuh.github.io/BeetRoot/lesson13/index.html
 
 # Lesson 18
-https://valentinzhovtobryuh.github.io/BeetRoot/lesson18/index.html
+* task 1 light sass
+https://valentinzhovtobryuh.github.io/BeetRoot/lesson18/18_01/index.html
+* task 2 meduim sass
+https://valentinzhovtobryuh.github.io/BeetRoot/lesson18/18_02/index.html
