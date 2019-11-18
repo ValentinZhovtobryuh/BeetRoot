@@ -10,6 +10,13 @@ $deskwidth: 2000px;
 $boxwidth: 1170px;
 $footheight: 247px;
 
+@mixin desk {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    max-width: 2000px;
+    max-height: 870px;
+}
 @mixin boxcentrcolum {
     display: flex;
     flex-flow: column nowrap;
@@ -33,10 +40,24 @@ flex-flow: column nowrap;
 justify-content: space-around;
 }
 
+@media only screen and (min-device-width : 1024px) and (max-device-width : 1440px) {
+    $deskwidth:100vw;
+    $boxwidth:100vw;
+}
+
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
     $deskwidth:100vw;
     $boxwidth:70%;
 }
+
+@media only screen and (min-device-width : 360px) and (max-device-width : 768px) {
+    .menu-desk__one{
+        display: none;
+    }
+    $deskwidth:90vw;
+    $boxwidth:90vw;
+}
+
 
 
 * {
@@ -61,8 +82,9 @@ html, body {
     }
     
     .desk {
-    width: $deskwidth;
+    // width: $deskwidth;
     margin: 0 auto;
+    
     // border: 1px solid red;
     }
     .desk-one {

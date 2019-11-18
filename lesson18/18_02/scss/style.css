@@ -1,3 +1,9 @@
+@media only screen and (min-device-width: 360px) and (max-device-width: 768px) {
+  .menu-desk__one {
+    display: none;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -22,7 +28,6 @@ a {
 }
 
 .desk {
-  width: 2000px;
   margin: 0 auto;
 }
 
