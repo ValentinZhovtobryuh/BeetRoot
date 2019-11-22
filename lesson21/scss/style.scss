@@ -98,7 +98,7 @@ h4 {
 
 .desk-one {
     height: 820px;
-    background-image: url(images/backone.png);
+    background-image: url(../images/backone.png);
     background-repeat: no-repeat;
     // border: $br2;
     .box-one {
@@ -205,7 +205,7 @@ h4 {
         justify-content: center;
         width: $deskwidth;
         height: 685px;
-        background-image: url(images/backtwo.png);
+        background-image: url(../images/backtwo.png);
         background-repeat: no-repeat;
 
     }
@@ -272,7 +272,7 @@ h4 {
     aside {
         width: $deskwidth;
         height: 337px;
-        background-image: url(images/backthree.png);
+        background-image: url(../images/backthree.png);
         background-repeat: no-repeat;
         .menu {
             display: inline-block;
@@ -309,7 +309,7 @@ h4 {
         @include font_h2 (16pt, 0.1em, 300);
     }
     .section_one {
-        background-image: url(images/backfour.png);
+        background-image: url(../images/backfour.png);
         background-repeat: no-repeat;
         .box-left{
            margin-left: 330px;
@@ -317,7 +317,7 @@ h4 {
          }
        
     .section_two {
-        background-image: url(images/backfive.png);
+        background-image: url(../images/backfive.png);
         background-repeat: no-repeat;
         .box-right {
             float: right;
@@ -326,7 +326,7 @@ h4 {
         }
     .section_feedback {
         height: 731px;
-        background-image: url(images/backsix.png);
+        background-image: url(../images/backsix.png);
         background-repeat: no-repeat;
         .box-six {
             display: flex;
@@ -337,7 +337,7 @@ h4 {
     }
     .foot-social {
         height: 268px;
-        background-image: url(images/backfooter_social.png);
+        background-image: url(../images/backfooter_social.png);
         background-repeat: no-repeat;
         padding-top: 1px;
 
