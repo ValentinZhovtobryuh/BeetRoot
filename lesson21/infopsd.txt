@@ -1,0 +1,94 @@
+496bfe
+5474fd
+____________________________________________________________
+FontAwesome
+JosefinSans
+JosefinSans Bold
+
+<link href="https://fonts.googleapis.com/css?family=Aleo&display=swap" rel="stylesheet">
+font-family: 'Aleo', serif;
+Aleo Regular
+___________________________________________________________
+desk one 1800x840 (4210)
+pading 15 15 0 (15) 15
+
+--------------------------
+footer 1770x80 bc #5474fd
+
+marg-l 330 logo midl
+JosefinSans Bold 24 va100 uper
+Bhromaon
+
+marg-r 330 menu midl 525x12
+Aleo Regular 14 va0 uper color w 
+
+Who We Are
+What We Do
+Travel With Us
+Contact Us
+
+--------------------------
+m-t 265
+JosefinSans 48 va100 color w
+Bhromaon 
+
+m-t 320
+JosefinSans 22 va310 color w
+Safe Travel Anywhere
+
+m-t 391
+650x60
+JosefinSans 14 va200 color #999999
+Search Your Travel Destination
+
+m-t 571
+btn 145x55 right bc-#5474fd
+Aleo Regular 14 va100 color w
+SEARCH 
++ 
+m-t 597
+icon
+
+m-t 740
+JosefinSans 14 va200
+m-b 215
+m-t 120(571)
+Scroll Down
+scroll icon
+________________________________________________________
+desk two 1800x700 (4210)
+	 1770x685
+pading 15 15 0 (15) 15
+
+m-t 204
+m-l 330
+Aleo Regular 36
+Why Choose Us
+
+m-t 299
+m-l 330
+540x145
+JosefinSans 16 va100
+
+m-t 403
+m-l 330
+225x60
+btn
+Aleo Regular 16 va75 color w
+Explore Places 
+
+img 350x220
+m-t 120
+m-r 125
+
+m-t 345
+m-r 0
+_____________________________________________________________
+desk three 
+	 1770x337
+333333
+_____________________________________________________________
+desk four 1770x700
+232323
+color="#232323"
+

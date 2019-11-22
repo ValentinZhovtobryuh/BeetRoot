@@ -1,0 +1,363 @@
+$br1: 2px solid red;
+$br2: 1px solid yellow;
+$br3: 1px solid green;
+$br4: 1px solid black;
+
+$deskwidth: 1770px;
+$boxwidth: 1110px;
+
+@mixin font_h1 ($fs:36pt, $fc:white, $fw_h1:bold) {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: $fs;
+    font-weight: $fw_h1;
+    letter-spacing: 4px;
+    color: $fc;
+    text-transform: uppercase;
+}
+
+@mixin font_h2 ($fs_h2:18pt, $ls_h2:0.2em, $fw_h2:200) {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: $fw_h2;
+    font-size: $fs_h2;
+    letter-spacing: $ls_h2;
+    color: white;
+}
+@mixin font_h3 ($fs_h3:12pt, $fw_h3:normal){
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: $fw_h3;
+    font-size: $fs_h3;
+    color: white;
+}
+
+@mixin font_h4 {
+    font-family: 'Aleo', serif;
+    font-weight: normal;
+    font-size: 27pt;
+    color: white;
+}
+
+@mixin btn ($btn_jc: center, $btn_width: 225px, $btn_mt: 40px, $btn_fs:10pt) {
+    display: flex;
+    justify-content: $btn_jc;
+    text-align: center;
+    width: $btn_width;
+    height: 60px;
+    margin-top: $btn_mt;
+    font-family: 'Aleo', serif;
+    font-size: $btn_fs;
+    color: white;
+    border: none;
+    background-image: linear-gradient(bottom,  #5474fd, #496bfe);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+ul, li {
+    list-style: none;
+    display: inline;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ body {
+    width: 1800px;
+    // max-width: 1800px;
+    max-height: 4210px;
+    padding: 15px 15px 0px 16px;
+    background-color: white;
+    // border: $br1
+}
+h1 {
+    @include font_h1
+}
+h2 {
+    @include font_h2
+}
+h3 {
+    @include font_h3
+}
+h4 {
+    @include font_h4
+}
+
+
+.desk {
+    width: $deskwidth;
+}
+.box {
+    width: $boxwidth;
+}
+
+.desk-one {
+    height: 820px;
+    background-image: url(images/backone.png);
+    background-repeat: no-repeat;
+    // border: $br2;
+    .box-one {
+        height: 740px;
+        margin: 0 auto;
+        text-align: center;
+        padding-top: 1px;
+        // border: $br3;
+        .heading {
+            margin-top: 264px;
+        }
+        .subtitle {
+            margin-top: 6px;
+        }
+        .scroll-txt {    
+            font-size: 12pt;
+            color: white;
+            letter-spacing: 1px;
+        }
+    .search {
+        width: 650px;
+        height: 62px;
+        margin: 0 auto;
+        margin-top: 44px;
+        margin-bottom: 120px;
+        background-color: white;
+        input {
+            width: 490px;
+            height: 60px;
+            border: none;
+            text-align: center;
+            outline: none;
+            &::-webkit-input-placeholder       {opacity: 1; transition: opacity 0.3s ease;}
+            &::-moz-placeholder                {opacity: 1; transition: opacity 0.3s ease;}
+            &:-moz-placeholder                 {opacity: 1; transition: opacity 0.3s ease;}
+            &:-ms-input-placeholder            {opacity: 1; transition: opacity 0.3s ease;}
+            &:focus::-webkit-input-placeholder {opacity: 0; transition: opacity 0.3s ease;}
+            &:focus::-moz-placeholder          {opacity: 0; transition: opacity 0.3s ease;}
+            &:focus:-moz-placeholder           {opacity: 0; transition: opacity 0.3s ease;}
+            &:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s ease;}
+            @include font_h3
+        }
+        button {
+            background-image: linear-gradient(bottom,  #5474fd, #496bfe);
+            &:hover {
+                background-image: linear-gradient(top,  #5474fd, #496bfe);
+            }
+            &:active {
+                background-image: linear-gradient(top,  #496bfe ,#5474fd);
+            }
+            border: none;
+        }
+        .btn_search {
+            @include btn (space-evenly, 150px, 1px);        
+            float: right;
+        }
+    }
+}    
+    
+.foot {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    background-color: #5474fd;
+    // border: $br4;
+    .foot-menu {
+        margin-left: 330px;
+        @include font_h1 (16pt, $fw_h1:normal)
+        // border: $br1;
+        }
+    .menu{ 
+        .menu-list {
+            margin-right: 330px;
+            font-family: 'Aleo', serif;
+            font-size: 10pt;
+            color: white;
+            text-transform: uppercase;
+            // border: $br1;
+            .menu-item {
+            margin-left: 40px;
+            // border: $br2;
+            &:hover {
+               color: darkred;
+            }
+            &:active {
+                background-image: linear-gradient(top,  #496bfe ,#5474fd);
+            }
+            }
+        }
+        }
+    }
+    }
+.foot-logo {
+    text-align: center;
+    margin-top: 120px;
+    @include font_h1 (16pt)
+}
+    .desk-two {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        width: $deskwidth;
+        height: 685px;
+        background-image: url(images/backtwo.png);
+        background-repeat: no-repeat;
+
+    }
+
+    .box-left {
+        width: 541px;
+        margin-right: 30px;
+        // border: $br2
+    }
+    .heading-two {
+        margin-top: 198px;
+    }
+    .heading-six {
+        margin-top: 115px;
+        text-align: center;
+    }
+    .subtitle-two{
+        @include font_h3 (13pt);
+        margin-top: 55px;
+        line-height: 150%;
+    }
+
+    .subtitle-three {
+        @include font_h3 (11pt);
+        // margin-top: 55px;
+        line-height: 200%;
+    }
+
+    .subtitle-feedback {
+        @include font_h2 ($fs_h2:15pt, $ls_h2:0, $fw_h2:300);
+        text-transform: uppercase;
+    }
+    .subtitle-footer {
+        text-align: center;
+        margin-top: 15px;
+        @include font_h2 ($fs_h2:12pt, $ls_h2:0, $fw_h2:300);
+    }
+    .lead-feedback {
+        @include font_h3 ($fw_h3:200);
+        line-height: 130%;
+
+    }
+
+    .box-right {
+        width: 541px;
+        // border: $br2
+    }
+    .btn_explor {
+        @include btn ($btn_fs:12pt);
+        &:hover {
+            background-image: linear-gradient(top,  #5474fd, #496bfe);
+        }
+        &:active {
+            background-image: linear-gradient(top,  #496bfe ,#5474fd);
+        }
+    }
+    .img_1 {
+        margin-top: 120px;
+        margin-left: 65px;
+    }
+    .img_2 {
+        float: right;
+    }
+    aside {
+        width: $deskwidth;
+        height: 337px;
+        background-image: url(images/backthree.png);
+        background-repeat: no-repeat;
+        .menu {
+            display: inline-block;
+            width: $boxwidth;
+            margin: 191px 330px;
+            font-family: 'Aleo', serif;
+            font-size: 30pt;
+            // border: $br2
+        }
+    }
+    .menu-item {
+        margin: 0px 60px;
+    }
+.sect {
+    width: $deskwidth;
+    height: 700px;
+    padding: 1px;
+    }
+    .box-info {
+        margin-top: 228px;
+        width: 540px;
+        height: 371px;
+        padding: 50px 0 0 30px;
+        background-color: #232323;
+        opacity: 0.8;
+        @include font_h2 (16pt, 0, 300);
+    }
+    .box-info__feedback {
+        width: 665px;
+        height: 284px;
+        padding: 50px 10px 0 60px;
+        background-color: #333333;
+        // opacity: 0.8;
+        @include font_h2 (16pt, 0.1em, 300);
+    }
+    .section_one {
+        background-image: url(images/backfour.png);
+        background-repeat: no-repeat;
+        .box-left{
+           margin-left: 330px;
+                 }
+         }
+       
+    .section_two {
+        background-image: url(images/backfive.png);
+        background-repeat: no-repeat;
+        .box-right {
+            float: right;
+            margin-right: 330px;
+        }
+        }
+    .section_feedback {
+        height: 731px;
+        background-image: url(images/backsix.png);
+        background-repeat: no-repeat;
+        .box-six {
+            display: flex;
+            height: 284px;
+            margin: 85px auto;
+            // border: $br2;
+        }
+    }
+    .foot-social {
+        height: 268px;
+        background-image: url(images/backfooter_social.png);
+        background-repeat: no-repeat;
+        padding-top: 1px;
+
+    }
+    .social-icon {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+        margin-top: 30px;
+        color: white;
+        width: 250px;
+        height: 50px;
+        // border: $br2;
+        .fab {
+        &:hover {
+            color: #496bfe;
+        }
+        &:active {
+            color: #5474fd;
+        }
+    }
+    }
