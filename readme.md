@@ -88,3 +88,6 @@ https://valentinzhovtobryuh.github.io/BeetRoot/lesson13/index.html
 https://valentinzhovtobryuh.github.io/BeetRoot/lesson18/18_01/index.html
 * task 2 meduim sass
 https://valentinzhovtobryuh.github.io/BeetRoot/lesson18/18_02/index.html
+....
+# Lesson 21
+https://valentinzhovtobryuh.github.io/BeetRoot/lesson21/index.html
