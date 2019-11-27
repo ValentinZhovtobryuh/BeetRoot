@@ -89,5 +89,8 @@ https://valentinzhovtobryuh.github.io/BeetRoot/lesson18/18_01/index.html
 * task 2 meduim sass
 https://valentinzhovtobryuh.github.io/BeetRoot/lesson18/18_02/index.html
 ....
-# Lesson 21
+# Lesson 21 (exam)
 https://valentinzhovtobryuh.github.io/BeetRoot/lesson21/index.html
+
+Exam (adaptiv)
+https://valentinzhovtobryuh.github.io/BeetRoot/Exam/index.html
