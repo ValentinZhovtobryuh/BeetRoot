@@ -94,3 +94,7 @@ https://valentinzhovtobryuh.github.io/BeetRoot/lesson21/index.html
 
 Exam (adaptiv)
 https://valentinzhovtobryuh.github.io/BeetRoot/Exam/index.html
+
+# Lesson JS
+lesson 2
+https://valentinzhovtobryuh.github.io/BeetRoot/lesson_js/02/index.html
