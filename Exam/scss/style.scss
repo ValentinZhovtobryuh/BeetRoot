@@ -3,7 +3,7 @@
 $br1: 2px solid red; // desk
 $br2: 1px solid yellow; // container
 $br3: 1px solid green; // box in container
-$br4: 2px solid black; // everything else like menu
+$br4: 1px solid white; // everything else like menu
 
 // Background images //
 
@@ -172,6 +172,7 @@ $desktop: 1200px;
     max-width: 1800px;
     max-height: 4210px;
     padding: 1%;
+    margin: 0 auto;
     background-color: white;
     // border: $br1
 }
@@ -191,6 +192,7 @@ a {
 .desk {
     width: 99%;
     max-width: 1770px;
+    padding-top: 1px;
     // border: $br4;
    
     &-one {
@@ -243,6 +245,7 @@ a {
     width: 100%;
     max-width: 1110px;
     margin: 0 auto;
+    padding-top: 1px;
     // border: $br2;
     
     &-one {

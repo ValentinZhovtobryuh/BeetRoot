@@ -11,6 +11,7 @@ body {
   max-width: 1800px;
   max-height: 4210px;
   padding: 1%;
+  margin: 0 auto;
   background-color: white;
 }
 
@@ -27,6 +28,7 @@ a {
 .desk {
   width: 99%;
   max-width: 1770px;
+  padding-top: 1px;
 }
 
 .desk-one {
@@ -89,6 +91,7 @@ a {
   width: 100%;
   max-width: 1110px;
   margin: 0 auto;
+  padding-top: 1px;
 }
 
 .container-one {
