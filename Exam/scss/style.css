@@ -12,7 +12,6 @@ body {
   max-height: 4210px;
   padding: 1%;
   background-color: white;
-  border: 2px solid red;
 }
 
 ul, li {
@@ -28,7 +27,6 @@ a {
 .desk {
   width: 99%;
   max-width: 1770px;
-  border: 2px solid black;
 }
 
 .desk-one {
@@ -91,7 +89,6 @@ a {
   width: 100%;
   max-width: 1110px;
   margin: 0 auto;
-  border: 1px solid yellow;
 }
 
 .container-one {
@@ -135,7 +132,6 @@ a {
 
 .box {
   width: 50%;
-  border: 1px solid green;
 }
 
 .box-left {
@@ -308,7 +304,6 @@ a {
 .foot {
   height: 80px;
   background-color: #5474fd;
-  border: 2px solid black;
 }
 
 .logo {
@@ -394,7 +389,6 @@ a {
   margin-top: 200px;
   margin-right: 50px;
   line-height: 200%;
-  border: 1px solid green;
 }
 
 .title-three .fas, .title-three .far {
@@ -471,7 +465,6 @@ a {
   color: white;
   width: 250px;
   height: 50px;
-  border: 1px solid yellow;
 }
 
 .social-icon .fab:hover {

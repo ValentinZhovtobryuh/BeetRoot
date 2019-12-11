@@ -173,7 +173,7 @@ $desktop: 1200px;
     max-height: 4210px;
     padding: 1%;
     background-color: white;
-    border: $br1
+    // border: $br1
 }
 
 ul, li {
@@ -191,7 +191,7 @@ a {
 .desk {
     width: 99%;
     max-width: 1770px;
-    border: $br4;
+    // border: $br4;
    
     &-one {
         @include bc-img1;
@@ -243,7 +243,7 @@ a {
     width: 100%;
     max-width: 1110px;
     margin: 0 auto;
-    border: $br2;
+    // border: $br2;
     
     &-one {
         text-align: center;
@@ -274,7 +274,7 @@ a {
 //*********** box with content (content box) **************//
 .box {
     width: 50%;
-    border: $br3
+    // border: $br3
 }
 
 //--------------page 5-------------------//
@@ -373,7 +373,7 @@ a {
 .foot {
     height: 80px;
     background-color: #5474fd;
-    border: $br4;
+    // border: $br4;
 }
 
 .logo {
@@ -426,7 +426,7 @@ a {
     margin-top: 200px;
     margin-right: 50px;
     line-height: 200%;
-    border: $br3;
+    // border: $br3;
     .fas, .far {display: none;}
 }
 
@@ -479,7 +479,7 @@ a {
     color: white;
     width: 250px;
     height: 50px;
-    border: $br2;
+    // border: $br2;
     
     .fab {
     
