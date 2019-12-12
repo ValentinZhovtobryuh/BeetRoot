@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100vw;
+  max-width: 1800px;
+  padding: 1%;
+  margin: 0 auto;
+  background-color: black;
+}
+
+.lesson27-array {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.box {
+  width: 30%;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  padding: 3% 3%;
+  text-align: justify;
+  background-color: #232323;
+  opacity: 0.8;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 12pt;
+  font-weight: 400;
+  letter-spacing: 0;
+  color: white;
+}
+
+.title {
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 14pt;
+  font-weight: 400;
+  letter-spacing: 0;
+  color: white;
+}
+
+.btn {
+  text-align: center;
+  width: 30%;
+  height: 50px;
+  margin: 5% 10% 0%;
+  font-size: 12pt;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#5474fd), to(#496bfe));
+  background-image: linear-gradient(bottom, #5474fd, #496bfe);
+}
+
+.btn:hover {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#5474fd), to(#496bfe));
+  background-image: linear-gradient(top, #5474fd, #496bfe);
+}
+
+.btn:active {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#496bfe), to(#5474fd));
+  background-image: linear-gradient(top, #496bfe, #5474fd);
+}
+/*# sourceMappingURL=style.css.map */

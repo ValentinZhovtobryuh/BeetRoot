@@ -1,0 +1,79 @@
+@mixin font_h2 ($fs_h2:12pt, $fw_h2:400, $ls_h2:0) {
+    font-family: 'Josefin Sans', sans-serif;
+    // font-style: italic;
+    font-size: $fs_h2;
+    font-weight: $fw_h2;
+    letter-spacing: $ls_h2;
+    color: white;
+}
+
+@mixin box-info {
+    // margin-top: 228px;
+    width: 30%;
+    height: max-content;
+    padding: 3% 3%;
+    text-align: justify;
+    background-color: #232323;
+    opacity: 0.8;
+    @include font_h2;
+}
+
+
+@mixin btn ($btn_jc: space-between, $btn_width: 30%, $btn_mt: 5%, $btn_fs:12pt) {
+    // display: flex;
+    // justify-content: $btn_jc;
+    text-align: center;
+    width: $btn_width;
+    height: 50px;
+    margin: $btn_mt 10% 0%;
+    // font-family: 'Aleo', serif;
+    font-size: $btn_fs;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    background-image: linear-gradient(bottom,  #5474fd, #496bfe);
+    
+    &:hover {
+        background-image: linear-gradient(top,  #5474fd, #496bfe);
+    }
+
+    &:active {
+        background-image: linear-gradient(top,  #496bfe ,#5474fd);
+    }
+}
+    
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+ body {
+    width: 100vw;
+    max-width: 1800px;
+    // max-height: 4210px;
+    padding: 1%;
+    margin: 0 auto;
+    background-color: black;
+    // border: $br1
+}
+.lesson27-array{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+.box {
+    @include box-info;
+
+}
+
+.title {
+    text-align: center;
+    @include font_h2 (14pt);    
+}
+
+.btn {
+    @include btn;
+}
