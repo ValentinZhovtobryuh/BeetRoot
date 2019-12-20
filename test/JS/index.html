@@ -5,11 +5,203 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script src="1212.js"></script>
+    <!-- <script src="1212.js"></script> -->
     <title>Document</title>
+
+    <style>
+        thead td {
+            width: 100px;
+            height: 30px;
+            border: 1px solid red;
+            text-align: center;
+        }
+
+        tbody td {
+            width: 100px;
+            height: 20px;
+            border: 1px solid green;
+            text-align: center;
+        }
+
+        /* .light {
+            width: 50px;
+            height: 50px;
+            bo
+        } */
+    </style>
 </head>
 
 <body>
+    <table>
+        <thead>
+            <td class="sort-cell" data-sort="name">Name</td>
+            <td class="sort-cell" data-sort="salary">Salary (USD$)</td>
+        </thead>
+        <tbody id="table-body">
+            <tr>
+                <td>Sasha</td>
+                <td>100</td>
+            </tr>
+
+            <tr>
+                <td>Denis</td>
+                <td>4000</td>
+            </tr>
+            <tr>
+                <td>Yarik</td>
+                <td>20</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+    <!-- <div class="svetlofor">
+        <div class="light">red</div>
+        <div class="light">yellow</div>
+        <div class="light">blue</div>
+        <div class="light">green</div>
+    </div>
+
+    <div>
+        <buttton id="toggle-button"></buttton>
+    </div> -->
+
+
+    <!-- <div id="parent">
+        <span class="test">hello assddf</span><br>
+        <b>d,dsfdsfsd</b><br>
+        <i>saSQS,dsd</i><br>
+        <span class="test">HELLO</span><br>
+    </div>
+
+    <div><i>ogo</i>
+    </div>
+
+    <div>
+        <button id="btn">click on me</button>
+    </div>
+    <div>
+        <div id="test">10</div>
+    </div> -->
+    <script>
+
+        //-------------------------------------------------------------------
+        let $tableBody = document.getElementById("table-body");
+        let $sortCells = document.getElementsByClassName("sort-cell");
+
+        for (var i = 0; i < $sortCells.length; i++) {
+            $sortCells[i].addEventListener('click', function (e) {
+                let sortValue = event.target.getAttribute("data-sort");
+                let sorted = getSortedList(userList, sortValue);
+                renderList(sorted);
+            });
+        }
+
+        function getSortedList(list, key) {
+            let sortedList = Array.from(list);
+            sortedList.sort(function (prev, next) {
+                return prev[key] > next[key] ? 1 : -1;
+            });
+            return sortedList;
+        }
+
+        let userList = [
+            { name: "Sasha", salary: 10000 },
+            { name: "Denis", salary: 4000 },
+            { name: "Yrik", salary: 20 },
+        ]
+
+        function renderList(list) {
+            $tableBody.innerHTML = "";
+            for (var i = 0; i < list.length; i++) {
+                let $tr = document.createElement('tr');
+                let $tdName = document.createElement('td');
+                let $tdSalary = document.createElement('td');
+
+                $tdName.textContent = list[i].name;
+                $tdSalary.textContent = list[i].salary;
+                $tr.appendChild($tdName);
+                $tr.appendChild($tdSalary);
+
+                $tableBody.appendChild($tr);
+            }
+
+        }
+
+        renderList(userList);
+//-----------------------------------------------------------------------------
+
+        // let svetlofor = [{
+        //     color: "red",
+        //     isActive: true,
+        // }, {
+        //     color: "yellow",
+        //     isActive: true,
+        // }, {
+        //     color: "blue",
+        //     isActive: true,
+        // }, {
+        //     color: "green",
+        //     isActive: true,
+        // }];
+
+        // function getActiveIndex(list) {
+        //     for (var i = 0; i < list.length; i++) {
+        //         if (list[i].isActive) {
+        //             return i;
+        //         }
+        //     }
+        //     return -1;
+        // }
+
+        // function turnSectionOn(section) {
+        //     section.isActive = true;
+        // }
+
+        // function turnSectionOff(section) {
+        //     section.isActive = false;
+        // }
+
+        // button.addEventListener("click", function () {
+        //     let activeIndex = getActiveIndex(svetlofor);
+        //     let activeSection = svetlofor[activeIndex];
+        //     if (activeIndex !== -1) {
+        //         turnSectionOff(activeSection);
+        //     }
+        // }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        // console.log(document.getElementsByClassName("test").textContent);
+        // let button = document.getElementById("btn");
+        // let test = document.getElementById("test");
+        // let a = 0;
+        // button.addEventListener("click", function () {
+
+        //     a += 1;
+        //     test.textContent = a;
+
+        //     // btn.textContent = "A ю Щур? Moto Ор Нокия";
+        //     // test.style.color = "red";
+        //     // btn.style.color = "green";
+        //     // console.log(getElementsByClassName("test"));
+        // });
+
+
+    </script>
+
 
 </body>
 
